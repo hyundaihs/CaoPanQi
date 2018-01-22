@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\orange_bg_checked.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\orange_bg_checked.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\orange_bg.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\orange_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\loading.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\loading.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\gray_bg_checked.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\gray_bg_checked.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\back_bg.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\back_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\green_bg_checked.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\green_bg_checked.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\homepage_radio_text.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\homepage_radio_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\fail.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\fail.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\search_edit_bg.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\search_edit_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\checkview_bg.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\checkview_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\welcome_tv.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\welcome_tv.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\welcome.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\CaoPanQi_CF\\res\\drawable\\welcome.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\gray_bg.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\gray_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\search_button_bg.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\search_button_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\green_bg.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\green_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\release\\drawable\\title_right.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\title_right.xml"
+    }
+]

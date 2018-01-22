@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_warn_log.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_warn_log.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\fragment_protfolio_tv.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_protfolio_tv.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_stock_details_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_stock_details_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_dialog_message.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_dialog_message.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_spinner_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_spinner_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_market_tv_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_market_tv_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_actionbar.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_actionbar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_market_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_market_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_main.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_device.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_device.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_help_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_help_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_sell.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_sell.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_score.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_score.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\fragment_history_info.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_history_info.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\jpush_popwin_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\798b89e8ecda14b49a885aa8a668b6c35648e01a\\output\\res\\layout\\jpush_popwin_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\fragment_stocks_pool.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_stocks_pool.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_warn_log_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_warn_log_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_help.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_search_stock_tv.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_search_stock_tv.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_videos.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_videos.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_stock_details_tv.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_stock_details_tv.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_more_beizhu_tv.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_more_beizhu_tv.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\date_picker_dialog_tv.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\date_picker_dialog_tv.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\fragment_fangzhen.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_fangzhen.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_video.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_video.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\fragment_protfolio.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_protfolio.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_protfolio_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_protfolio_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\fragment_market.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_market.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_protfolio_tv_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_protfolio_tv_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_search_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_search_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_my_check.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_my_check.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_socre_details.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_socre_details.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_homepage.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_homepage.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_record_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_record_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_search_list_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_search_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_sz.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_sz.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_stocks_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_stocks_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_more_beizhu.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_more_beizhu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_fangzhen_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_fangzhen_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_video_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_video_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_registe.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_registe.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_buy.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_buy.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_set_warn.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_set_warn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\fragment_history_chart.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_history_chart.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\fragment_mine.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_about.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\date_picker_dialog.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\date_picker_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_stock_details.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_stock_details.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_stock_warn_item.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_stock_warn_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_dialog_progress.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_dialog_progress.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_loading.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_loading.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\fragment_ewm.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_ewm.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_search_stock.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_search_stock.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_dialog.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\jpush_webview_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\798b89e8ecda14b49a885aa8a668b6c35648e01a\\output\\res\\layout\\jpush_webview_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\stock_details_divine.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\stock_details_divine.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\layout_dialog_edit_text.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_dialog_edit_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\debug\\layout\\activity_emulator.xml",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_emulator.xml"
+    }
+]

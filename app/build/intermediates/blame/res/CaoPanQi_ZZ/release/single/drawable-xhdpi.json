@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\release\\drawable-xhdpi\\app_icon.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\release\\drawable-xhdpi\\ewm.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\ewm.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\release\\drawable-xhdpi\\fenge.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\fenge.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\release\\drawable-xhdpi\\app_icon_tv.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\app_icon_tv.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\release\\drawable-xhdpi\\next.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\next.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\release\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\release\\drawable-xhdpi\\back.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\release\\drawable-xhdpi\\bell.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\bell.png"
+    }
+]

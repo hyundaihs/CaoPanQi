@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sun Jan 21 22:30:24 CST 2018
+1.base=E\:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\assets\\CaoPanQi_CF\\debug
+2.path=jpush_close.png
+0.baseType=DIRECTORY
+2.base=E\:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\assets\\CaoPanQi_CF\\debug
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=stock_data.txt
+0.set=ASSET
+0.base=E\:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\assets\\CaoPanQi_CF\\debug
+2.baseType=DIRECTORY
+1.path=chuangye_data.txt

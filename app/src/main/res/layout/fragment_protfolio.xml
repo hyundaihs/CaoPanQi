@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <com.dashuai.android.treasuremap.widget.MyLoadingView
+        android:id="@+id/protfolio_loadingView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.dashuai.android.treasuremap.widget.MyLoadingView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/protfolio_stock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="left|center_vertical"
+            android:padding="10dp"
+            android:text="全部股票"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/protfolio_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="最新价"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/protfolio_increase"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="涨跌幅"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/protfolio_statu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="备注"
+            android:textColor="@color/blue" />
+
+        <CheckBox
+            android:id="@+id/protfolio_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <ListView
+        android:id="@+id/protfolio_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/protfolio_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/checkview_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="编辑"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/protfolio_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/protfolio_edit"
+            android:background="@drawable/checkview_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="删除"
+            android:textColor="@color/blue"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/protfolio_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/protfolio_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_gray"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/blue"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</LinearLayout>

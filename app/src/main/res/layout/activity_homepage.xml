@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homepage_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg"
+        android:orientation="horizontal" >
+
+        <com.dashuai.android.treasuremap.widget.MyCheckButton
+            android:id="@+id/homepage_radio1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/checkview_bg"
+            android:focusable="true"
+            android:gravity="center" >
+        </com.dashuai.android.treasuremap.widget.MyCheckButton>
+
+        <com.dashuai.android.treasuremap.widget.MyCheckButton
+            android:id="@+id/homepage_radio2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/checkview_bg"
+            android:focusable="true"
+            android:gravity="center" >
+        </com.dashuai.android.treasuremap.widget.MyCheckButton>
+
+        <com.dashuai.android.treasuremap.widget.MyCheckButton
+            android:id="@+id/homepage_radio3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/checkview_bg"
+            android:focusable="true"
+            android:gravity="center" >
+        </com.dashuai.android.treasuremap.widget.MyCheckButton>
+
+        <com.dashuai.android.treasuremap.widget.MyCheckButton
+            android:id="@+id/homepage_radio4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/checkview_bg"
+            android:focusable="true"
+            android:gravity="center" >
+        </com.dashuai.android.treasuremap.widget.MyCheckButton>
+
+        <com.dashuai.android.treasuremap.widget.MyCheckButton
+            android:id="@+id/homepage_radio5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/checkview_bg"
+            android:focusable="true"
+            android:gravity="center" >
+        </com.dashuai.android.treasuremap.widget.MyCheckButton>
+
+        <com.dashuai.android.treasuremap.widget.MyCheckButton
+            android:id="@+id/homepage_radio6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/checkview_bg"
+            android:focusable="true"
+            android:gravity="center" >
+        </com.dashuai.android.treasuremap.widget.MyCheckButton>
+    </LinearLayout>
+
+</LinearLayout>

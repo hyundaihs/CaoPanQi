@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\release\\drawable-mdpi\\app_icon_tv.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\app_icon_tv.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\release\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_ZZ\\release\\drawable-mdpi\\app_icon.png",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\app_icon.png"
+    }
+]

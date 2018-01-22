@@ -1,0 +1,594 @@
+[
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi-v4_jpush_richpush_btn_selector.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\jpush-3.0.3.aar\\f8c4c7268ed7f277610acc843b1d63d6\\res\\drawable-hdpi-v4\\jpush_richpush_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\962538b20e3332acab657580257cb380\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_video_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_video_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_actionbar.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_actionbar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi-v4_jpush_ic_richpush_actionbar_back.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\jpush-3.0.3.aar\\f8c4c7268ed7f277610acc843b1d63d6\\res\\drawable-hdpi-v4\\jpush_ic_richpush_actionbar_back.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_stock_details_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_stock_details_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\962538b20e3332acab657580257cb380\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_score.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_score.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\962538b20e3332acab657580257cb380\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_stocks_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_stocks_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi-v4_jpush_ic_richpush_actionbar_divider.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\jpush-3.0.3.aar\\f8c4c7268ed7f277610acc843b1d63d6\\res\\drawable-hdpi-v4\\jpush_ic_richpush_actionbar_divider.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_dialog_edit_text.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_dialog_edit_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_stock_details.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_stock_details.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_set_warn.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_set_warn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_jpush_webview_layout.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\jpush-3.0.3.aar\\f8c4c7268ed7f277610acc843b1d63d6\\res\\layout\\jpush_webview_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_search_button_bg.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\search_button_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_warn_log_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_warn_log_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_date_picker_dialog.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\date_picker_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_title_right_pressed.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\title_right_pressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_circle_gray.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\circle_gray.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_homepage.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_homepage.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_warn_log.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_warn_log.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_my_check.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_my_check.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_fangzhen_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_fangzhen_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi_ewm.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\ewm.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\962538b20e3332acab657580257cb380\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_loading.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_loading.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_about.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_title_right.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\title_right.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_emulator.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_emulator.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_green_bg_checked.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\green_bg_checked.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\962538b20e3332acab657580257cb380\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_app_icon.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\CaoPanQi_CF\\res\\drawable-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_dialog_gray_bottom.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\dialog_gray_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_fragment_fangzhen.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_fangzhen.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_fragment_history_chart.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_history_chart.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_orange_bg.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\orange_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_fail.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\fail.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_sell.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_sell.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_help_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_help_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xxhdpi_app_icon.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\CaoPanQi_CF\\res\\drawable-xxhdpi\\app_icon.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi_app_icon_tv.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-hdpi\\app_icon_tv.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_title_right_normal.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\title_right_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_welcome.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\CaoPanQi_CF\\res\\drawable\\welcome.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_dialog_progress.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_dialog_progress.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_fragment_ewm.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_ewm.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_dialog_green_top.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\dialog_green_top.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_fragment_history_info.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_history_info.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_video.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_video.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_spinner_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_spinner_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi_app_icon.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\CaoPanQi_CF\\res\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\962538b20e3332acab657580257cb380\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi-v4_jpush_richpush_progressbar.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\jpush-3.0.3.aar\\f8c4c7268ed7f277610acc843b1d63d6\\res\\drawable-hdpi-v4\\jpush_richpush_progressbar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_dialog_message.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_dialog_message.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_green_bg.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\green_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_device.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_device.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi_fenge.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\fenge.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_fragment_protfolio.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_protfolio.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_gray_bg_checked.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\gray_bg_checked.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_dialog_white_bottom.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\dialog_white_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi_next.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\next.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi_app_icon_tv.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\app_icon_tv.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi_back.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_search_edit_bg.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\search_edit_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_gray_bg.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\gray_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_market_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_market_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_record_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_record_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_fragment_market.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_market.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_welcome_tv.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\welcome_tv.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi_bell.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xhdpi\\bell.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_market_tv_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_market_tv_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_videos.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_videos.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_jpush_popwin_layout.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\jpush-3.0.3.aar\\f8c4c7268ed7f277610acc843b1d63d6\\res\\layout\\jpush_popwin_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_fragment_mine.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_orange_bg_checked.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\orange_bg_checked.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_search_bg.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\search_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_more_beizhu.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_more_beizhu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_list_select_bg.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\list_select_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_more_beizhu_tv.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_more_beizhu_tv.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_homepage_radio_text.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\homepage_radio_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_search_list_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_search_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_help.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_app_icon_tv.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\app_icon_tv.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\962538b20e3332acab657580257cb380\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_green_stroke.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\green_stroke.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\962538b20e3332acab657580257cb380\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_stock_details_divine.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\stock_details_divine.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_buy.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_buy.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_dialog_white_button.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\dialog_white_button.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_stock_details_tv.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_stock_details_tv.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_checkview_bg.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\checkview_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_sz.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_sz.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_search_stock_tv.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_search_stock_tv.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\962538b20e3332acab657580257cb380\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_loading.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\loading.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_red_stroke.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\red_stroke.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_dialog.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_registe.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_registe.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_protfolio_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_protfolio_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_stock_warn_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_stock_warn_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_fragment_stocks_pool.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_stocks_pool.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi_app_icon.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\CaoPanQi_CF\\res\\drawable-hdpi\\app_icon.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_fragment_protfolio_tv.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\fragment_protfolio_tv.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable_back_bg.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable\\back_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_socre_details.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_socre_details.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_activity_search_stock.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\activity_search_stock.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_auth_code_edit.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\auth_code_edit.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_protfolio_tv_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_protfolio_tv_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_date_picker_dialog_tv.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\date_picker_dialog_tv.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-mdpi_white_stroke.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-mdpi\\white_stroke.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xxhdpi_app_icon_tv.png.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\drawable-xxhdpi\\app_icon_tv.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_layout_search_item.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\layout\\layout_search_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\menu_main.xml.flat",
+        "source": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\res\\merged\\CaoPanQi_CF\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    }
+]

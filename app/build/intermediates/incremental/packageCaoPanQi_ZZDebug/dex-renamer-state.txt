@@ -1,0 +1,7 @@
+#Mon Nov 06 21:58:46 CST 2017
+base.0=E\:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\transforms\\dex\\CaoPanQi_ZZ\\debug\\folders\\1000\\10000\\instant-run-bootstrap_73952a5c8c2ebbeb73ffe1bf8ffcd405df0dc957
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\transforms\\dex\\CaoPanQi_ZZ\\debug\\folders\\1000\\10000\\instant-run_fcd4a65b5882aceaf94f751e52d8c6c562fd9518\\classes.dex
+base.1=E\:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\transforms\\dex\\CaoPanQi_ZZ\\debug\\folders\\1000\\10000\\instant-run_fcd4a65b5882aceaf94f751e52d8c6c562fd9518
+file.0=E\:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\transforms\\dex\\CaoPanQi_ZZ\\debug\\folders\\1000\\10000\\instant-run-bootstrap_73952a5c8c2ebbeb73ffe1bf8ffcd405df0dc957\\classes.dex

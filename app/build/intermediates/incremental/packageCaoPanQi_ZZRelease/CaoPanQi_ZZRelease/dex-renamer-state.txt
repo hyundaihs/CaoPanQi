@@ -1,0 +1,4 @@
+#Sat Jan 20 18:22:39 CST 2018
+base.0=E\:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\transforms\\dex\\CaoPanQi_ZZ\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

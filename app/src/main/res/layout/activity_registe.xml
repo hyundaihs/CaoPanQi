@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="产品未激活,请激活后使用!"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="姓名："
+            android:textColor="@color/blue"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/registe_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/auth_code_edit"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:nextFocusRight="@+id/edit2"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/blue"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="（必填）"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="电话："
+            android:textColor="@color/blue"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/registe_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/auth_code_edit"
+            android:gravity="center"
+            android:inputType="phone"
+            android:nextFocusRight="@+id/edit2"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/blue"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="（必填）"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="短信验证码："
+            android:textColor="@color/blue"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/registe_verf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/auth_code_edit"
+            android:gravity="center"
+            android:inputType="phone"
+            android:nextFocusRight="@+id/edit2"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/blue"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/registe_getVerf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取验证码"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="填写推荐人ID可以直接试用，无需填写注册码"
+        android:textColor="@color/orange"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="推荐人ID："
+            android:textColor="@color/blue"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/registe_factorId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/auth_code_edit"
+            android:gravity="center"
+            android:inputType="phone"
+            android:nextFocusRight="@+id/edit2"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/blue"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/registCode_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入注册码："
+            android:textColor="@color/blue"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/auth_code_edit"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:maxLength="4"
+            android:nextFocusRight="@+id/edit2"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/blue"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/auth_code_edit"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:maxLength="4"
+            android:nextFocusRight="@+id/edit3"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/blue"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edit3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/auth_code_edit"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:maxLength="4"
+            android:nextFocusRight="@+id/edit4"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/blue"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edit4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/auth_code_edit"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:maxLength="4"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/blue"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray_bg"
+        android:padding="10dp"
+        android:text="注册"
+        android:textColor="@color/gray_text"
+        android:textSize="16sp" />
+
+</LinearLayout>
