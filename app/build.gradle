@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'treasuremap'
             keyPassword '558600'
-            storeFile file('E:/项目归档/操盘器资料/操盘器_Android版/TreasureMap.Keystore')
+            storeFile file('/Users/kevin/Desktop/操盘器资料/操盘器_Android版/TreasureMap.Keystore')
             storePassword '558600'
         }
     }
@@ -93,9 +93,9 @@ dependencies {
     compile files('libs/Volley.jar')
     compile 'cn.jiguang.sdk:jpush:3.0.3'
     compile 'cn.jiguang.sdk:jcore:1.1.1'
+    //noinspection GradleCompatible
     compile 'com.android.support:cardview-v7:27.0.2'
     compile 'com.android.support:recyclerview-v7:27.0.2'
     compile 'com.android.support:support-v4:27.0.2'
-    compile 'com.github.hotchemi:permissionsdispatcher:2.3.2'
-    annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:2.3.2'//java8不能使用apt
+    compile 'com.yanzhenjie:permission:1.1.2'
 }

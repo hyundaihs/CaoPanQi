@@ -32,6 +32,9 @@ import com.dashuai.android.treasuremap.ui.StockDetailsTVActivity;
 import com.dashuai.android.treasuremap.util.CalendarUtil;
 import com.dashuai.android.treasuremap.util.CrashHandler;
 import com.dashuai.android.treasuremap.util.FileUtil;
+import com.yanzhenjie.permission.AndPermission;
+import com.yanzhenjie.permission.Permission;
+import com.yanzhenjie.permission.PermissionListener;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -144,7 +147,10 @@ public class CPQApplication extends Application {
         CrashHandler crashHandler = CrashHandler.getInstance();
         crashHandler.init(getApplicationContext(), Constant.LOG_PATH);
 //        initBzListStatus();
+
     }
+
+
 
     public static String round(Double v) {
         return String.valueOf(round(v, 0));

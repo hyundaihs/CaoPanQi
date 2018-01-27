@@ -1,5 +1,7 @@
 package com.dashuai.android.treasuremap;
 
+import android.*;
+import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -19,6 +21,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.dashuai.android.treasuremap.db.BZListStatusDao;
 import com.dashuai.android.treasuremap.entity.BZListStatus;
@@ -31,6 +34,11 @@ import com.dashuai.android.treasuremap.util.Installation;
 import com.dashuai.android.treasuremap.util.JsonUtil;
 import com.dashuai.android.treasuremap.util.RequestUtil;
 import com.dashuai.android.treasuremap.util.RequestUtil.Reply;
+import com.yanzhenjie.permission.AndPermission;
+import com.yanzhenjie.permission.Permission;
+import com.yanzhenjie.permission.PermissionListener;
+import com.yanzhenjie.permission.Rationale;
+import com.yanzhenjie.permission.RationaleListener;
 
 import org.json.JSONObject;
 
@@ -45,8 +53,6 @@ public class MainActivity extends Activity implements Reply {
     //    static {
 //        System.loadLibrary("JniLibName"); //和生成so文件的名字对应。
 //    }
-    public static final int REQUEST_PERMISSION_CALL = 100;
-    private static final String READ_PHONE_STATE = android.Manifest.permission.READ_PHONE_STATE;
     private RequestUtil requestUtil;
     private DialogUtil dialogUtil;
     private TextView textView;
@@ -59,69 +65,50 @@ public class MainActivity extends Activity implements Reply {
         setContentView(R.layout.activity_main);
         CPQApplication.hideActionBar(this);
         init();
-        call();
-    }
-    private boolean checkPermission(String permission) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            if (ContextCompat.checkSelfPermission(this, permission) == PackageManager.PERMISSION_GRANTED) {
-                return true;
-            } else {
-                return false;
-            }
-        } else {
-            return true;
-        }
+        getPermission();
     }
 
-    private void startRequestPermision(String permission) {
-        ActivityCompat.requestPermissions(MainActivity.this, new String[]{permission}, REQUEST_PERMISSION_CALL);
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        if (requestCode == REQUEST_PERMISSION_CALL) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    check_reg();
-                    getBzInfo();
-                } else {
-                    //如果拒绝授予权限,且勾选了再也不提醒
-                    if (!shouldShowRequestPermissionRationale(permissions[0])) {
-
-                        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                        builder.setTitle("说明")
-                                .setMessage("需要使用电话权限获取设备ID，进行用户注册检验")
-                                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        showTipGoSetting();
-                                    }
-                                })
-                                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        dialog.cancel();
-                                        return;
-                                    }
-                                })
-                                .create()
-                                .show();
-                    } else {
-                        showTipGoSetting();
+    private void getPermission() {
+        AndPermission.with(getApplicationContext())
+                .requestCode(200)
+                .permission(Permission.STORAGE)
+                .permission(android.Manifest.permission.READ_PHONE_STATE)
+                .permission(android.Manifest.permission.SYSTEM_ALERT_WINDOW)
+                .permission(android.Manifest.permission.VIBRATE)
+                .rationale(new RationaleListener() {
+                    @Override
+                    public void showRequestPermissionRationale(int requestCode, Rationale rationale) {
+                        AndPermission.rationaleDialog(MainActivity.this, rationale).show();
                     }
-                }
+                })
+                .callback(listener)
+                .start();
+    }
+
+    private PermissionListener listener = new PermissionListener() {
+        @Override
+        public void onSucceed(int requestCode, List<String> grantedPermissions) {
+            // 权限申请成功回调。
+
+            // 这里的requestCode就是申请时设置的requestCode。
+            // 和onActivityResult()的requestCode一样，用来区分多个不同的请求。
+            if (requestCode == 200) {
+                call();
             }
         }
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-    }
+
+        @Override
+        public void onFailed(int requestCode, List<String> deniedPermissions) {
+            // 权限申请失败回调。
+            if (requestCode == 200) {
+                finish();
+            }
+        }
+    };
 
     private void call() {
-        if (checkPermission(READ_PHONE_STATE)) {
             check_reg();
             getBzInfo();
-        } else {
-            startRequestPermision(READ_PHONE_STATE);
-        }
     }
 
     /**

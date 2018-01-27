@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\library_Viewpagerindicator\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ja\\values-ja.xml",
+            "outputFile": "/Users/kevin/AndroidStudioProjects/CaoPanQi/library_Viewpagerindicator/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\values-ja\\values-ja.xml",
+                    "source": "/Users/kevin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/6224415a395a60f1f18dcc79b76d33e8/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/kevin/AndroidStudioProjects/CaoPanQi/E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\library_Viewpagerindicator\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ja\\values-ja.xml",
+            "map": [
+                {
+                    "source": "/Users/kevin/AndroidStudioProjects/CaoPanQi/C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
