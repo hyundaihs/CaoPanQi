@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "D:\\Users\\lenovo\\workspace\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugAndroidTestResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2dcefc7d92d064eb03186e35d4518b8\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugAndroidTestResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {

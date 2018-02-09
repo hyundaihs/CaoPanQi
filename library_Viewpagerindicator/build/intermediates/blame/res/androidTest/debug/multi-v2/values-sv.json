@@ -31,6 +31,21 @@
             ]
         },
         {
+            "outputFile": "D:\\Users\\lenovo\\workspace\\CaoPanQi\\library_Viewpagerindicator\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sv\\values-sv.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\values-sv\\values-sv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\library_Viewpagerindicator\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sv\\values-sv.xml",
             "map": [
                 {

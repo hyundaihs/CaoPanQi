@@ -1,218 +1,218 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:2:1-130:12
 MERGED from [cn.jiguang.sdk:jcore:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.1.1.aar\00f35d1a33dee2c254d1a81ebdad37da\AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\bb7e46afb7531259cc713548d97c75b6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\49bb7213b6bedec3336a3630106a063b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permission-1.1.2.aar\2c417950017005a215c95d38241c919b\AndroidManifest.xml:17:1-33:12
 MERGED from [com.yanzhenjie.alertdialog:alertdialog:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\alertdialog-1.0.1.aar\b702bafc22fa6e2bc0cdb4a90df50885\AndroidManifest.xml:2:1-10:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9f000922f83467e89dcd978adbdf3b56\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2dcefc7d92d064eb03186e35d4518b8\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\8e78b6eca706c4f042f4fd5ffe7bd41e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ce7d71cd5fd05a3e8b0d823c2c978162\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a841cf547ab5c12c183cfb39952abfbf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\d8593039295674c0354b3d801b832d05\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\2b0c53f9c564b0ae6bb8ef18c88354b4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\542d5488c22f63defcdf69e783004f56\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\42593a0b75ebad2042e46328d89a6def\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\962538b20e3332acab657580257cb380\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\fb6e70de8302ac02cab8177cbf02e1a8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\7381883ade1eb53a867e937f395981b8\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\295b66c79f39ee187c4c0e36e2b1d03a\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:3:5-46
-		INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
-		INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
+		INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
-		INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:2:1-60:12
+		INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:18:5-67
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:18:5-67
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:7:5-79
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:26:5-79
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:9:5-81
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:9:5-81
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:21:5-81
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:21:5-81
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:10:5-80
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:10:5-80
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:22:5-80
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:22:5-80
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:10:22-77
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:12:5-84
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:12:5-84
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:25:5-84
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:25:5-84
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:12:22-81
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:12:22-81
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:14:5-75
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:14:5-75
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:20:5-75
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:20:5-75
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:14:22-72
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:14:22-72
 uses-permission#android.permission.VIBRATE
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:16:5-66
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:16:5-66
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:24:5-66
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:24:5-66
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:16:22-63
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:16:22-63
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:18:5-78
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:18:5-78
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:30:5-78
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:30:5-78
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:18:22-75
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:18:22-75
 application
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:20:5-58:19
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:20:5-58:19
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:37:5-128:19
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:37:5-128:19
 MERGED from [cn.jiguang.sdk:jcore:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.1.1.aar\00f35d1a33dee2c254d1a81ebdad37da\AndroidManifest.xml:11:5-12:19
 MERGED from [cn.jiguang.sdk:jcore:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.1.1.aar\00f35d1a33dee2c254d1a81ebdad37da\AndroidManifest.xml:11:5-12:19
 MERGED from [com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permission-1.1.2.aar\2c417950017005a215c95d38241c919b\AndroidManifest.xml:24:5-31:19
 MERGED from [com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permission-1.1.2.aar\2c417950017005a215c95d38241c919b\AndroidManifest.xml:24:5-31:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9f000922f83467e89dcd978adbdf3b56\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9f000922f83467e89dcd978adbdf3b56\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\d8593039295674c0354b3d801b832d05\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\d8593039295674c0354b3d801b832d05\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\2b0c53f9c564b0ae6bb8ef18c88354b4\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\2b0c53f9c564b0ae6bb8ef18c88354b4\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2dcefc7d92d064eb03186e35d4518b8\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2dcefc7d92d064eb03186e35d4518b8\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\542d5488c22f63defcdf69e783004f56\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\542d5488c22f63defcdf69e783004f56\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\42593a0b75ebad2042e46328d89a6def\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\42593a0b75ebad2042e46328d89a6def\AndroidManifest.xml:26:5-20
 	android:label
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:24:9-41
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:24:9-41
 	android:icon
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:23:9-42
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:23:9-42
 	android:allowBackup
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:25:9-40
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:25:9-40
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:21:9-70
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:21:9-70
 activity#com.dashuai.android.treasuremap.MainActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:26:9-34:20
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:26:9-34:20
 	android:label
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:28:13-45
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:28:13-45
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:27:13-41
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:27:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:32:27-74
 activity#com.dashuai.android.treasuremap.ui.HomepageActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:35:9-66
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:35:9-66
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:35:19-54
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:35:19-54
 service#com.dashuai.android.treasuremap.service.CurrentDataService
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:37:9-71
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:37:9-71
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:37:18-60
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:37:18-60
 activity#com.dashuai.android.treasuremap.ui.SearchStockActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:39:9-69
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:39:9-69
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:39:19-57
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:39:19-57
 activity#com.dashuai.android.treasuremap.ui.StockDetailsActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:40:9-70
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:40:9-70
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:40:19-58
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:40:19-58
 activity#com.dashuai.android.treasuremap.ui.StockDetailsTVActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:41:9-72
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:41:9-72
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:41:19-60
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:41:19-60
 activity#com.dashuai.android.treasuremap.ui.RegisteActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:42:9-65
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:42:9-65
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:42:19-53
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:42:19-53
 activity#com.dashuai.android.treasuremap.ui.HelpActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:43:9-62
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:43:9-62
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:43:19-50
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:43:19-50
 activity#com.dashuai.android.treasuremap.ui.AboutActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:44:9-63
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:44:9-63
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:44:19-51
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:44:19-51
 activity#com.dashuai.android.treasuremap.ui.StockWarnActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:45:9-67
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:45:9-67
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:45:19-55
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:45:19-55
 activity#com.dashuai.android.treasuremap.ui.SetWarnActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:46:9-65
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:46:9-65
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:46:19-53
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:46:19-53
 activity#com.dashuai.android.treasuremap.ui.VideosActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:47:9-64
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:47:9-64
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:47:19-52
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:47:19-52
 activity#com.dashuai.android.treasuremap.ui.VideoActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:48:9-63
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:48:9-63
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:48:19-51
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:48:19-51
 activity#com.dashuai.android.treasuremap.ui.MoreBeizhuActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:49:9-68
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:49:9-68
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:49:19-56
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:49:19-56
 activity#com.dashuai.android.treasuremap.ui.MoreBeizhuTVActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:50:9-70
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:50:9-70
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:50:19-58
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:50:19-58
 activity#com.dashuai.android.treasuremap.ui.EmulatorActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:51:9-66
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:51:9-66
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:51:19-54
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:51:19-54
 activity#com.dashuai.android.treasuremap.ui.BuyActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:52:9-61
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:52:9-61
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:52:19-49
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:52:19-49
 activity#com.dashuai.android.treasuremap.ui.SellActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:53:9-62
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:53:9-62
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:53:19-50
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:53:19-50
 activity#com.dashuai.android.treasuremap.ui.ChooseStockActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:54:9-69
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:54:9-69
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:54:19-57
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:54:19-57
 activity#com.dashuai.android.treasuremap.ui.DeviceActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:55:9-64
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:55:9-64
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:55:19-52
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:55:19-52
 activity#com.dashuai.android.treasuremap.ui.ScoreActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:56:9-63
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:56:9-63
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:56:19-51
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:56:19-51
 activity#com.dashuai.android.treasuremap.ui.ScoreDetailsActivity
-ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:57:9-70
+ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:57:9-70
 	android:name
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml:57:19-58
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml:57:19-58
 uses-sdk
-INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
-INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:7:5-9:41
 MERGED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:7:5-9:41
 MERGED from [cn.jiguang.sdk:jcore:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jcore-1.1.1.aar\00f35d1a33dee2c254d1a81ebdad37da\AndroidManifest.xml:7:5-9:41
@@ -225,18 +225,18 @@ MERGED from [com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\cac
 MERGED from [com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permission-1.1.2.aar\2c417950017005a215c95d38241c919b\AndroidManifest.xml:20:5-22:41
 MERGED from [com.yanzhenjie.alertdialog:alertdialog:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\alertdialog-1.0.1.aar\b702bafc22fa6e2bc0cdb4a90df50885\AndroidManifest.xml:6:5-8:41
 MERGED from [com.yanzhenjie.alertdialog:alertdialog:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\alertdialog-1.0.1.aar\b702bafc22fa6e2bc0cdb4a90df50885\AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9f000922f83467e89dcd978adbdf3b56\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9f000922f83467e89dcd978adbdf3b56\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2dcefc7d92d064eb03186e35d4518b8\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2dcefc7d92d064eb03186e35d4518b8\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\8e78b6eca706c4f042f4fd5ffe7bd41e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\8e78b6eca706c4f042f4fd5ffe7bd41e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ce7d71cd5fd05a3e8b0d823c2c978162\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ce7d71cd5fd05a3e8b0d823c2c978162\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a841cf547ab5c12c183cfb39952abfbf\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a841cf547ab5c12c183cfb39952abfbf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\d8593039295674c0354b3d801b832d05\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\d8593039295674c0354b3d801b832d05\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\2b0c53f9c564b0ae6bb8ef18c88354b4\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\2b0c53f9c564b0ae6bb8ef18c88354b4\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\542d5488c22f63defcdf69e783004f56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\542d5488c22f63defcdf69e783004f56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\42593a0b75ebad2042e46328d89a6def\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\42593a0b75ebad2042e46328d89a6def\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\962538b20e3332acab657580257cb380\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\962538b20e3332acab657580257cb380\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\fb6e70de8302ac02cab8177cbf02e1a8\AndroidManifest.xml:20:5-44
@@ -245,18 +245,18 @@ MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\7381883ade1eb53a867e937f395981b8\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\295b66c79f39ee187c4c0e36e2b1d03a\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\295b66c79f39ee187c4c0e36e2b1d03a\AndroidManifest.xml:20:5-22:41
-INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
-INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9f000922f83467e89dcd978adbdf3b56\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2dcefc7d92d064eb03186e35d4518b8\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AndroidStudioAll\AndroidStudioProjects\CaoPanQi\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\lenovo\workspace\CaoPanQi\app\src\main\AndroidManifest.xml
 permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
 ADDED from [cn.jiguang.sdk:jpush:3.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jpush-3.0.3.aar\f8c4c7268ed7f277610acc843b1d63d6\AndroidManifest.xml:11:5-13:47
 	android:protectionLevel
@@ -480,12 +480,12 @@ ADDED from [com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\cach
 	android:name
 		ADDED from [com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\permission-1.1.2.aar\2c417950017005a215c95d38241c919b\AndroidManifest.xml:26:13-72
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9f000922f83467e89dcd978adbdf3b56\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\d8593039295674c0354b3d801b832d05\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\d8593039295674c0354b3d801b832d05\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\2b0c53f9c564b0ae6bb8ef18c88354b4\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\2b0c53f9c564b0ae6bb8ef18c88354b4\AndroidManifest.xml:22:5-24:34
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2dcefc7d92d064eb03186e35d4518b8\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\542d5488c22f63defcdf69e783004f56\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\542d5488c22f63defcdf69e783004f56\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\42593a0b75ebad2042e46328d89a6def\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\42593a0b75ebad2042e46328d89a6def\AndroidManifest.xml:22:5-24:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9f000922f83467e89dcd978adbdf3b56\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2dcefc7d92d064eb03186e35d4518b8\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9f000922f83467e89dcd978adbdf3b56\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2dcefc7d92d064eb03186e35d4518b8\AndroidManifest.xml:26:9-47

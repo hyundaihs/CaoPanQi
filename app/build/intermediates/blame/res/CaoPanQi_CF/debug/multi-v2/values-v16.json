@@ -44,6 +44,21 @@
                     }
                 }
             ]
+        },
+        {
+            "outputFile": "D:\\Users\\lenovo\\workspace\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2dcefc7d92d064eb03186e35d4518b8\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
         }
     ]
 }

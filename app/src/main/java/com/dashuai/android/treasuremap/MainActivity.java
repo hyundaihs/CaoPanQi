@@ -1,27 +1,19 @@
 package com.dashuai.android.treasuremap;
 
-import android.*;
-import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.Settings;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.dashuai.android.treasuremap.db.BZListStatusDao;
 import com.dashuai.android.treasuremap.entity.BZListStatus;
@@ -58,6 +50,26 @@ public class MainActivity extends Activity implements Reply {
     private TextView textView;
     private ProgressBar progressBar;
     private MyHandler handler;
+    private PermissionListener listener = new PermissionListener() {
+        @Override
+        public void onSucceed(int requestCode, List<String> grantedPermissions) {
+            // 权限申请成功回调。
+
+            // 这里的requestCode就是申请时设置的requestCode。
+            // 和onActivityResult()的requestCode一样，用来区分多个不同的请求。
+            if (requestCode == 200) {
+                call();
+            }
+        }
+
+        @Override
+        public void onFailed(int requestCode, List<String> deniedPermissions) {
+            // 权限申请失败回调。
+            if (requestCode == 200) {
+                finish();
+            }
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,30 +97,9 @@ public class MainActivity extends Activity implements Reply {
                 .start();
     }
 
-    private PermissionListener listener = new PermissionListener() {
-        @Override
-        public void onSucceed(int requestCode, List<String> grantedPermissions) {
-            // 权限申请成功回调。
-
-            // 这里的requestCode就是申请时设置的requestCode。
-            // 和onActivityResult()的requestCode一样，用来区分多个不同的请求。
-            if (requestCode == 200) {
-                call();
-            }
-        }
-
-        @Override
-        public void onFailed(int requestCode, List<String> deniedPermissions) {
-            // 权限申请失败回调。
-            if (requestCode == 200) {
-                finish();
-            }
-        }
-    };
-
     private void call() {
-            check_reg();
-            getBzInfo();
+        check_reg();
+        getBzInfo();
     }
 
     /**
@@ -172,41 +163,21 @@ public class MainActivity extends Activity implements Reply {
         requestUtil.postRequest(Constant.URL_IP + Constant.CHECK_REG, map, 0);
     }
 
-    private static class MyHandler extends Handler {
-        WeakReference<Activity> mActivity;
-
-        MyHandler(Activity activity) {
-            mActivity = new WeakReference<Activity>(activity);
-        }
-
-        @Override
-        public void handleMessage(Message msg) {
-            MainActivity theActivity = (MainActivity) mActivity.get();
-            switch (msg.what) {
-                case 1:
-                    // CPQApplication.setStocks();
-                    theActivity.startActivity(new Intent(theActivity,
-                            HomepageActivity.class));
-                    theActivity.finish();
-                    break;
-                case 2:
-                    theActivity.textView.setText("正在修复本地数据...");
-                    theActivity.progressBar.setMax(msg.arg1);
-                    theActivity.progressBar.setProgress(msg.arg2);
-                    theActivity.progressBar.setVisibility(View.VISIBLE);
-                    break;
-                default:
-                    break;
-            }
-        }
-    }
-
     @Override
     public void onSuccess(JSONObject response, int what) {
         if (what == 1) {
             Constant.STATUS.clear();
-            Constant.STATUS.addAll(JsonUtil.getBzInfoList(response));
-            checkBzList(CPQApplication.getDB(), Constant.STATUS);
+            BZListStatusDao bzListStatusDao = new BZListStatusDao(CPQApplication.getDB());
+            List<BZListStatus> list = bzListStatusDao.querys(new BZListStatus());
+            for (int i = 0; i < list.size(); i++) {
+                Constant.STATUS.add(list.get(i).getName());
+            }
+            List<String> nets = JsonUtil.getBzInfoList(response);
+            if (nets.size() > 0) {
+                Constant.STATUS.clear();
+                Constant.STATUS.addAll(nets);
+                checkBzList(CPQApplication.getDB(), Constant.STATUS);
+            }
             initHongbao();
         } else {
             CPQApplication.setLogined(true);
@@ -273,6 +244,35 @@ public class MainActivity extends Activity implements Reply {
             });
         } else {
             dialogUtil.setErrorMessage(error);
+        }
+    }
+
+    private static class MyHandler extends Handler {
+        WeakReference<Activity> mActivity;
+
+        MyHandler(Activity activity) {
+            mActivity = new WeakReference<Activity>(activity);
+        }
+
+        @Override
+        public void handleMessage(Message msg) {
+            MainActivity theActivity = (MainActivity) mActivity.get();
+            switch (msg.what) {
+                case 1:
+                    // CPQApplication.setStocks();
+                    theActivity.startActivity(new Intent(theActivity,
+                            HomepageActivity.class));
+                    theActivity.finish();
+                    break;
+                case 2:
+                    theActivity.textView.setText("正在修复本地数据...");
+                    theActivity.progressBar.setMax(msg.arg1);
+                    theActivity.progressBar.setProgress(msg.arg2);
+                    theActivity.progressBar.setVisibility(View.VISIBLE);
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }

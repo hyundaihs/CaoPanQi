@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\library_Viewpagerindicator\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-bs\\values-bs.xml",
+            "outputFile": "D:\\Users\\lenovo\\workspace\\CaoPanQi\\library_Viewpagerindicator\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-bs\\values-bs.xml",
             "map": [
                 {
-                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\values-bs\\values-bs.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\values-bs\\values-bs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\library_Viewpagerindicator\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-bs\\values-bs.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\values-bs\\values-bs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -31,10 +46,10 @@
             ]
         },
         {
-            "outputFile": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\library_Viewpagerindicator\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-bs\\values-bs.xml",
+            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\library_Viewpagerindicator\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-bs\\values-bs.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\values-bs\\values-bs.xml",
+                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f243d299e7951d2f761f12b2eb0be63d\\res\\values-bs\\values-bs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "D:\\Users\\lenovo\\workspace\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugResources\\merged.dir\\values-te\\values-te.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-te\\values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugResources\\merged.dir\\values-te\\values-te.xml",
             "map": [
                 {
@@ -16,10 +31,10 @@
             ]
         },
         {
-            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugResources\\merged.dir\\values-te\\values-te.xml",
+            "outputFile": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugResources\\merged.dir\\values-te\\values-te.xml",
             "map": [
                 {
-                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-te\\values-te.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -31,10 +46,10 @@
             ]
         },
         {
-            "outputFile": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugResources\\merged.dir\\values-te\\values-te.xml",
+            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugResources\\merged.dir\\values-te\\values-te.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-te\\values-te.xml",
+                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,21 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugResources\\merged.dir\\values-ta\\values-ta.xml",
-            "map": [
-                {
-                    "source": "E:\\Users\\kevin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\465915a98ef283dc77dbcdce598519ab\\res\\values-ta\\values-ta.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugResources\\merged.dir\\values-ta\\values-ta.xml",
             "map": [
                 {
@@ -35,6 +20,36 @@
             "map": [
                 {
                     "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "map": [
+                {
+                    "source": "E:\\Users\\kevin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\465915a98ef283dc77dbcdce598519ab\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Users\\lenovo\\workspace\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_CFDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-ta\\values-ta.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
