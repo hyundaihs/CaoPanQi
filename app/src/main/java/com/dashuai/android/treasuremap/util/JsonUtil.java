@@ -551,11 +551,11 @@ public class JsonUtil {
         stockLog.setTime(calendarUtil.format(CalendarUtil.STANDARD));
         if (CPQApplication.VERSION == Constant.PHONE) {
             stockLog.setMessage(stockLog.getName() + "关注  价格：" + dq + "  "
-                    + (is_sf == 1 ? "*" : "") + Constant.STATUS.get(beizhu));
+                    + (is_sf == 1 ? "*" : "") + Constant.getStatus(beizhu));
         } else {
             stockLog.setMessage(stockLog.getName() + "进入关注阶段  当前价格：" + dq
                     + "  当前分类：" + (is_sf == 1 ? "*" : "")
-                    + Constant.STATUS.get(beizhu));
+                    + Constant.getStatus(beizhu));
 
         }
         return stockLog;

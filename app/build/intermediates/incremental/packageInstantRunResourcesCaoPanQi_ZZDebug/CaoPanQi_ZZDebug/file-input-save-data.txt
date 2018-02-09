@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jan 20 18:15:48 CST 2018
+#Sat Feb 10 01:04:40 CST 2018
 1.base=E\:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\assets\\CaoPanQi_ZZ\\debug
 2.path=stock_data.txt
 0.baseType=DIRECTORY

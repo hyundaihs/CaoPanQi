@@ -341,22 +341,22 @@ public class StockDetailsTVActivity extends FragmentActivity implements Reply, O
         int status_w = CPQApplication.stockDetails.getBeizhu_w();
         int status_m = CPQApplication.stockDetails.getBeizhu_m();
 
-//		statu.setText(Constant.STATUS.get(status)
+//		statu.setText(Constant.getStatus(status)
 //				+ (CPQApplication.stockDetails.isGZ()
 //						&& (CPQApplication.stockDetails.isXC() || CPQApplication.stockDetails
 //								.isDT()) ? "**" : (CPQApplication.stockDetails
 //						.getIs_sf() == 1 ? "*" : "")));
-        statu.setText(ArrowUtil.getColorString(CPQApplication.stockDetails.isHZ() ? "*" : " ", "884898", Constant.STATUS.get(status)
+        statu.setText(ArrowUtil.getColorString(CPQApplication.stockDetails.isHZ() ? "*" : " ", "884898", Constant.getStatus(status)
                 + (CPQApplication.stockDetails.isGZ()
                 && (CPQApplication.stockDetails.isXC() || CPQApplication.stockDetails
                 .isDT()) ? "**" : (CPQApplication.stockDetails
                 .getIs_sf() == 1 ? "*" : "")), true));
-        statu_w.setText(ArrowUtil.getColorString(CPQApplication.stockDetails.isHZ() ? "*" : " ", "884898", Constant.STATUS.get(status_w)
+        statu_w.setText(ArrowUtil.getColorString(CPQApplication.stockDetails.isHZ() ? "*" : " ", "884898", Constant.getStatus(status_w)
                 + (CPQApplication.stockDetails.isGZ()
                 && (CPQApplication.stockDetails.isXC() || CPQApplication.stockDetails
                 .isDT()) ? "**" : (CPQApplication.stockDetails
                 .getIs_sf() == 1 ? "*" : "")), true));
-        statu_m.setText(ArrowUtil.getColorString(CPQApplication.stockDetails.isHZ() ? "*" : " ", "884898", Constant.STATUS.get(status_m)
+        statu_m.setText(ArrowUtil.getColorString(CPQApplication.stockDetails.isHZ() ? "*" : " ", "884898", Constant.getStatus(status_m)
                 + (CPQApplication.stockDetails.isGZ()
                 && (CPQApplication.stockDetails.isXC() || CPQApplication.stockDetails
                 .isDT()) ? "**" : (CPQApplication.stockDetails

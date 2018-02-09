@@ -44,7 +44,6 @@ import java.util.List;
 
 import cn.jpush.android.api.JPushInterface;
 
-import static com.dashuai.android.treasuremap.Constant.STATUS;
 
 public class CPQApplication extends Application {
 
@@ -146,8 +145,13 @@ public class CPQApplication extends Application {
         // 实例化日志
         CrashHandler crashHandler = CrashHandler.getInstance();
         crashHandler.init(getApplicationContext(), Constant.LOG_PATH);
-//        initBzListStatus();
 
+        Constant.clearStatus();
+        BZListStatusDao bzListStatusDao = new BZListStatusDao(CPQApplication.getDB());
+        List<BZListStatus> list = bzListStatusDao.querys(new BZListStatus());
+        for (int i = 0; i < list.size(); i++) {
+            Constant.addStatus(list.get(i).getName());
+        }
     }
 
 

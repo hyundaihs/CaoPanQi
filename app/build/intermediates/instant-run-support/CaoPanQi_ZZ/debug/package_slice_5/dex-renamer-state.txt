@@ -1,4 +1,4 @@
-#Sat Jan 20 18:15:51 CST 2018
-base.0=E\:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\transforms\\dexMerger\\CaoPanQi_ZZ\\debug\\5
+#Sat Feb 10 01:04:58 CST 2018
+base.0=E\:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\transforms\\dexMerger\\CaoPanQi_ZZ\\debug\\24
 path.0=classes.dex
 renamed.0=classes.dex

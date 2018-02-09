@@ -294,7 +294,7 @@ public class StockDetailsActivity extends FragmentActivity implements Reply {
                     status = CPQApplication.stockDetails.getBeizhu_m();
                     break;
             }
-            statu.setText(ArrowUtil.getColorString(CPQApplication.stockDetails.isHZ() ? "*" : " ", "884898", Constant.STATUS.get(status)
+            statu.setText(ArrowUtil.getColorString(CPQApplication.stockDetails.isHZ() ? "*" : " ", "884898", Constant.getStatus(status)
                     + (CPQApplication.stockDetails.isGZ()
                     && (CPQApplication.stockDetails.isXC() || CPQApplication.stockDetails
                     .isDT()) ? "**" : (CPQApplication.stockDetails

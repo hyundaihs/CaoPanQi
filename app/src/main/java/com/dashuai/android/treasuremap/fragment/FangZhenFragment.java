@@ -330,7 +330,7 @@ public class FangZhenFragment extends Fragment implements View.OnClickListener {
             viewHolder.code.setText(fangzhenBig.getCodes());
             viewHolder.success.setText(FangzhenBig.RESULTS[fangzhenBig.getResult_status()]);
             viewHolder.success.setTextColor(Color.WHITE);
-            viewHolder.status.setText(Constant.STATUS.get(fangzhenBig.getBeizhu()));
+            viewHolder.status.setText(Constant.getStatus(fangzhenBig.getBeizhu()));
             viewHolder.base.setText(CPQApplication.half_up(fangzhenBig.getBase_low()));
             List<FangzhenSmall> list = fangzhenBig.getLists();
             if (fangzhenBig.getResult_status() == 0) {

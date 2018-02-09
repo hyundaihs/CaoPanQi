@@ -166,17 +166,11 @@ public class MainActivity extends Activity implements Reply {
     @Override
     public void onSuccess(JSONObject response, int what) {
         if (what == 1) {
-            Constant.STATUS.clear();
-            BZListStatusDao bzListStatusDao = new BZListStatusDao(CPQApplication.getDB());
-            List<BZListStatus> list = bzListStatusDao.querys(new BZListStatus());
-            for (int i = 0; i < list.size(); i++) {
-                Constant.STATUS.add(list.get(i).getName());
-            }
             List<String> nets = JsonUtil.getBzInfoList(response);
             if (nets.size() > 0) {
-                Constant.STATUS.clear();
-                Constant.STATUS.addAll(nets);
-                checkBzList(CPQApplication.getDB(), Constant.STATUS);
+                Constant.clearStatus();
+                Constant.addAllStatus(nets);
+                checkBzList(CPQApplication.getDB(), Constant.getBzStatus());
             }
             initHongbao();
         } else {
@@ -187,7 +181,7 @@ public class MainActivity extends Activity implements Reply {
 
     public void initHongbao() {
         CPQApplication.bzList = new ArrayList<>();
-        for (int i = 0; i < Constant.STATUS.size(); i++) {
+        for (int i = 0; i < Constant.getBzStatusSize(); i++) {
             CPQApplication.bzList.add(new BzList(i, new ArrayList<Stock>()));
         }
     }

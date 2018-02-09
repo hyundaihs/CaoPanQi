@@ -315,7 +315,7 @@ public class ProtfolioFragment extends Fragment implements OnClickListener {
             int statu = stock.getBeizhu();
             viewHolder.statu.setText(ArrowUtil.getColorString(stock.isHZ() ? "*" : "", "884898", (stock.isGZ()
                     && (stock.isXC() || stock.isDT()) ? "**" : (stock.getIs_sf() == 1 ? "*" : "  "))
-                    + Constant.STATUS.get(statu)));
+                    + Constant.getStatus(statu)));
             switch (statu) {
                 case 1:
                 case 2:

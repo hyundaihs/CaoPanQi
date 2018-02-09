@@ -14,9 +14,36 @@ public class Constant {
     public static final String APK_PATH = APP_ROOT + "apk/CaoPanQi.apk";
     public static final String VIDEO_PATH = APP_ROOT + "video/spal.mp4";
 
-    public static List<String> STATUS = new ArrayList<>();
+    private static List<String> bzStatus = new ArrayList<>();
 
-//    public static String[] STATUS = {"中性", "布局", "拉升", "建仓", "减仓", "关注",
+    public static String getStatus(int index) {
+        if (index >= bzStatus.size()) {
+            return "";
+        }
+        return bzStatus.get(index);
+    }
+
+    public static void addStatus(String status) {
+        bzStatus.add(status);
+    }
+
+    public static void clearStatus() {
+        bzStatus.clear();
+    }
+
+    public static void addAllStatus(List<String> status) {
+        bzStatus.addAll(status);
+    }
+
+    public static List<String> getBzStatus() {
+        return bzStatus;
+    }
+
+    public static int getBzStatusSize() {
+        return bzStatus.size();
+    }
+
+//    public static String[] bzStatus = {"中性", "布局", "拉升", "建仓", "减仓", "关注",
 //            "吸筹", "倒T型", "高开", "超买", "低买"};
     /**
      * 操盘器:1，原油:2，操盘器TV版:3，至尊版:4，操盘器-模拟器:5，教师版:6,创业版:7，次新版：8，财富版：9

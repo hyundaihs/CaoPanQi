@@ -263,10 +263,10 @@ public class MarketTVFragment extends Fragment {
             viewHolder.zf.setVisibility(stock.isGZ()
                     && (stock.isXC() || stock.isDT()) ? View.VISIBLE : stock
                     .getIs_sf() == 1 ? View.VISIBLE : View.GONE);
-//			viewHolder.beizhu.setText(Constant.STATUS.get(stock.getBeizhu()));
+//			viewHolder.beizhu.setText(Constant.getStatus(stock.getBeizhu()));
             viewHolder.beizhu.setText(ArrowUtil.getColorString(stock.isHZ() ? "*" : " ", "884898", (stock.isGZ()
                     && (stock.isXC() || stock.isDT()) ? "**" : (stock.getIs_sf() == 1 ? "*" : "  "))
-                    + Constant.STATUS.get(stock.getBeizhu())));
+                    + Constant.getStatus(stock.getBeizhu())));
             if (stock.getZdf() > 0) {
                 convertView.setBackgroundResource(R.drawable.orange_bg);
                 viewHolder.zdf.setText("+"

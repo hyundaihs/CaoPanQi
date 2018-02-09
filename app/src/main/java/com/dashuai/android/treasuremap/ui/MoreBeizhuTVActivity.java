@@ -52,7 +52,7 @@ public class MoreBeizhuTVActivity extends Activity implements Reply, View.OnClic
         zdf = (Button) findViewById(R.id.more_beizhu_zdf);
         zf = (Button) findViewById(R.id.more_beizhu_zf);
         statue = getIntent().getIntExtra("statue", 0);
-        CPQApplication.initActionBar(this, true, Constant.STATUS.get(statue));
+        CPQApplication.initActionBar(this, true, Constant.getStatus(statue));
         zdf.setOnClickListener(this);
         zf.setOnClickListener(this);
         init();
@@ -177,7 +177,7 @@ public class MoreBeizhuTVActivity extends Activity implements Reply, View.OnClic
                     .getIs_sf() == 1 ? View.VISIBLE : View.GONE);
             viewHolder.beizhu.setText(ArrowUtil.getColorString(stock.isHZ() ? "*" : " ", "884898", (stock.isGZ()
                     && (stock.isXC() || stock.isDT()) ? "**" : (stock.getIs_sf() == 1 ? "*" : "  "))
-                    + Constant.STATUS.get(stock.getBeizhu())));
+                    + Constant.getStatus(stock.getBeizhu())));
             if (stock.getZdf() > 0) {
                 convertView.setBackgroundResource(R.drawable.orange_bg);
                 viewHolder.zdf.setText("+"
@@ -207,7 +207,7 @@ public class MoreBeizhuTVActivity extends Activity implements Reply, View.OnClic
         SortUtil.sort(data, sort, isDesc);
         adapter.notifyDataSetChanged();
         CPQApplication.setBzcode(statue);
-        CPQApplication.initActionBar(this, true, Constant.STATUS.get(statue) + "("
+        CPQApplication.initActionBar(this, true, Constant.getStatus(statue) + "("
                 + adapter.getCount() + ")");
     }
 
@@ -232,7 +232,7 @@ public class MoreBeizhuTVActivity extends Activity implements Reply, View.OnClic
                 SortUtil.sort(data, sort, isDesc);
                 adapter.notifyDataSetChanged();
                 CPQApplication.initActionBar(MoreBeizhuTVActivity.this, true,
-                        Constant.STATUS.get(statue) + "(" + data.size() + ")" );
+                        Constant.getStatus(statue) + "(" + data.size() + ")" );
             } else if (intent.getAction().equals(Constant.ACTION_NET_UNCONNECT)) {
                 String errorStr = intent.getStringExtra("error");
                 // loadingView.showError(errorStr);

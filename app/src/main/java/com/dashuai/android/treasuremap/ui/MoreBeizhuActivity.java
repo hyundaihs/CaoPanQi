@@ -48,7 +48,7 @@ public class MoreBeizhuActivity extends Activity implements Reply, View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_more_beizhu);
         statue = getIntent().getIntExtra("statue", 0);
-        CPQApplication.initActionBar(this, true, Constant.STATUS.get(statue));
+        CPQApplication.initActionBar(this, true, Constant.getStatus(statue));
         initViews();
         init();
     }
@@ -199,7 +199,7 @@ public class MoreBeizhuActivity extends Activity implements Reply, View.OnClickL
             int statu = stock.getBeizhu();
             viewHolder.statu.setText(ArrowUtil.getColorString(stock.isHZ() ? "*" : " ", "884898", (stock.isGZ()
                     && (stock.isXC() || stock.isDT()) ? "**" : (stock.getIs_sf() == 1 ? "*" : "  "))
-                    + Constant.STATUS.get(statu)));
+                    + Constant.getStatus(statu)));
             switch (statu) {
                 case 1:
                 case 2:
@@ -244,7 +244,7 @@ public class MoreBeizhuActivity extends Activity implements Reply, View.OnClickL
         data.addAll(JsonUtil.getStocks(response));
         adapter.notifyDataSetChanged();
         CPQApplication.setBzcode(statue);
-        CPQApplication.initActionBar(this, true, Constant.STATUS.get(statue) + "("
+        CPQApplication.initActionBar(this, true, Constant.getStatus(statue) + "("
                 + adapter.getCount() + ")");
     }
 
@@ -269,7 +269,7 @@ public class MoreBeizhuActivity extends Activity implements Reply, View.OnClickL
                 SortUtil.sort(data, sortType, isDesc);
                 adapter.notifyDataSetChanged();
                 CPQApplication.initActionBar(MoreBeizhuActivity.this, true,
-                        Constant.STATUS.get(statue) + "(" + data.size() + ")");
+                        Constant.getStatus(statue) + "(" + data.size() + ")");
             } else if (intent.getAction().equals(Constant.ACTION_NET_UNCONNECT)) {
                 String errorStr = intent.getStringExtra("error");
                 // loadingView.showError(errorStr);

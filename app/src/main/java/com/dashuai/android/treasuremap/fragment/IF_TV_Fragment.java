@@ -200,7 +200,7 @@ public class IF_TV_Fragment extends Fragment implements Reply {
 		high.setText(CPQApplication.half_up(stock.getHigh()));
 		low.setText(CPQApplication.half_up(stock.getLow()));
 		int status = stock.getBeizhu();
-		statu.setText(Constant.STATUS.get(status));
+		statu.setText(Constant.getStatus(status));
 	}
 
 	private class MyAdapter extends BaseAdapter {
