@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'treasuremap'
             keyPassword '558600'
-            storeFile file('/Users/kevin/Desktop/操盘器资料/操盘器_Android版/TreasureMap.Keystore')
+            storeFile file('E:/项目归档/操盘器资料/操盘器_Android版/TreasureMap.Keystore')
             storePassword '558600'
         }
     }
@@ -17,8 +17,8 @@ android {
         applicationId "com.dashuai.android.treasuremap"
         minSdkVersion 17
         targetSdkVersion 27
-        versionCode 37
-        versionName "10.5"
+        versionCode 38
+        versionName "10.6"
         flavorDimensions "versionCode"
 
 //        ndk{
