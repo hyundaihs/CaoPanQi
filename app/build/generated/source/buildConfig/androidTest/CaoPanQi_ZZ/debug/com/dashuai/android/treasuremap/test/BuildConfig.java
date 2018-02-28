@@ -8,8 +8,8 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.dashuai.android.treasuremap.test";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "CaoPanQi_ZZ";
-  public static final int VERSION_CODE = 38;
-  public static final String VERSION_NAME = "10.6";
+  public static final int VERSION_CODE = 39;
+  public static final String VERSION_NAME = "10.7";
   // Fields from product flavor: CaoPanQi_ZZ
   public static final boolean IS_PHONE = true;
 }

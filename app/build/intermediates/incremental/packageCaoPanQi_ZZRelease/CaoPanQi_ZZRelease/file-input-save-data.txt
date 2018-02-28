@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Feb 10 01:07:02 CST 2018
+#Wed Feb 28 21:34:37 CST 2018
 4.path=lib/x86_64/libjcore111.so
 8.set=NATIVE_RESOURCE
 6.path=lib/armeabi-v7a/libjcore111.so

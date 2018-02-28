@@ -77,8 +77,8 @@ public class MainActivity extends Activity implements Reply {
         setContentView(R.layout.activity_main);
         CPQApplication.hideActionBar(this);
         getPermission();
-        call();
         init();
+        getBzInfo();
     }
 
     private void getPermission() {
@@ -99,7 +99,7 @@ public class MainActivity extends Activity implements Reply {
     }
 
     private void call() {
-        getBzInfo();
+
     }
 
     /**
