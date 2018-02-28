@@ -58,7 +58,7 @@ public class MainActivity extends Activity implements Reply {
             // 这里的requestCode就是申请时设置的requestCode。
             // 和onActivityResult()的requestCode一样，用来区分多个不同的请求。
             if (requestCode == 200) {
-                call();
+
             }
         }
 
@@ -76,8 +76,9 @@ public class MainActivity extends Activity implements Reply {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         CPQApplication.hideActionBar(this);
-        init();
         getPermission();
+        call();
+        init();
     }
 
     private void getPermission() {
@@ -98,7 +99,6 @@ public class MainActivity extends Activity implements Reply {
     }
 
     private void call() {
-        check_reg();
         getBzInfo();
     }
 
@@ -173,6 +173,7 @@ public class MainActivity extends Activity implements Reply {
                 checkBzList(CPQApplication.getDB(), Constant.getBzStatus());
             }
             initHongbao();
+            check_reg();
         } else {
             CPQApplication.setLogined(true);
             handler.sendEmptyMessageDelayed(1, 2000);
