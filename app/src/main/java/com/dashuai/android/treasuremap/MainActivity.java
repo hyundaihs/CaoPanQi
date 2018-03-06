@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.Settings;
+import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -161,6 +162,7 @@ public class MainActivity extends Activity implements Reply {
         map.put("device_id", Installation.id(getBaseContext()));
         map.put("type_id", CPQApplication.getID_KEY());
         requestUtil.postRequest(Constant.URL_IP + Constant.CHECK_REG, map, 0);
+        Log.d("check_reg", "device_id" + map.get("device_id") + "  type_id = " + map.get("type_id"));
     }
 
     @Override

@@ -57,6 +57,7 @@ public class RegisteActivity extends Activity implements Reply {
             if (verfTime <= 0) {
                 getVerf.setOnClickListener(new VerfOnClick());
                 getVerf.setText("获取验证码");
+                verfTime = 60;
             } else {
                 getVerf.setText("重新获取(" + verfTime + "s)");
                 handler.sendEmptyMessageDelayed(0, 1000);
@@ -114,8 +115,6 @@ public class RegisteActivity extends Activity implements Reply {
             map.put("phone", phone.getText().toString().trim());
             requestUtil.postRequest(Constant.URL_IP + Constant.VERF, map, 1);
 
-            getVerf.setText("重新获取(" + verfTime + "s)");
-            handler.sendEmptyMessageDelayed(0, 1000);
         }
     }
 
@@ -255,6 +254,8 @@ public class RegisteActivity extends Activity implements Reply {
                             CPQApplication.setLogined(true);
                         }
                     }, null, null);
+        }else{
+            handler.sendEmptyMessageDelayed(0, 1000);
         }
     }
 
