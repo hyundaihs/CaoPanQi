@@ -1,21 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
-            "map": [
-                {
-                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
@@ -89,6 +74,21 @@
                         "startOffsets": "1876,1925,2040,2140,2189,2240,2310",
                         "endColumns": "48,114,99,48,50,69,72",
                         "endOffsets": "1920,2035,2135,2184,2235,2305,2378"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "map": [
+                {
+                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     }
                 }
             ]

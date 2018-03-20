@@ -5,18 +5,21 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.support.v4.util.LruCache;
+import android.util.Log;
 import android.widget.ImageView;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkError;
 import com.android.volley.NetworkResponse;
 import com.android.volley.NoConnectionError;
+import com.android.volley.ParseError;
 import com.android.volley.Request.Method;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.ServerError;
 import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.ImageLoader.ImageCache;
 import com.android.volley.toolbox.ImageLoader.ImageListener;
@@ -27,12 +30,14 @@ import com.android.volley.toolbox.Volley;
 import com.dashuai.android.treasuremap.Constant;
 import com.dashuai.android.treasuremap.R;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -130,11 +135,11 @@ public class RequestUtil implements ImageCache {
                 onError(error, what);
             }
         }) {
-            // @Override
-            // protected Response<JSONObject> parseNetworkResponse(
-            // NetworkResponse response) {
-            // return getCookie(response);
-            // }
+            @Override
+            protected Response<JSONObject> parseNetworkResponse(
+                    NetworkResponse response) {
+                return getCookie(response);
+            }
 
             @Override
             public Map<String, String> getHeaders() {
@@ -170,27 +175,27 @@ public class RequestUtil implements ImageCache {
         }
     }
 
-    //
-    // public Response<JSONObject> getCookie(NetworkResponse response) {
-    // try {
-    // Map<String, String> responseHeaders = response.headers;
-    // String string = responseHeaders.get("Set-Cookie");
-    // if (string != null) {
-    // if (string.contains("PHPSESSID")) {
-    // PHPSESSID = string.split(";")[0];
-    // }
-    // }
-    // String jsonString = new String(response.data,
-    // HttpHeaderParser.parseCharset(response.headers));
-    // JSONObject jsonObject = new JSONObject(jsonString);
-    // return Response.success(jsonObject,
-    // HttpHeaderParser.parseCacheHeaders(response));
-    // } catch (UnsupportedEncodingException e) {
-    // return Response.error(new ParseError(e));
-    // } catch (JSONException je) {
-    // return Response.error(new ParseError(je));
-    // }
-    // }
+
+    public Response<JSONObject> getCookie(NetworkResponse response) {
+        try {
+            Map<String, String> responseHeaders = response.headers;
+            String string = responseHeaders.get("Set-Cookie");
+            if (string != null) {
+                if (string.contains("PHPSESSID")) {
+                    PHPSESSID = string.split(";")[0];
+                }
+            }
+            String jsonString = new String(response.data,
+                    HttpHeaderParser.parseCharset(response.headers));
+            JSONObject jsonObject = new JSONObject(jsonString);
+            return Response.success(jsonObject,
+                    HttpHeaderParser.parseCacheHeaders(response));
+        } catch (UnsupportedEncodingException e) {
+            return Response.error(new ParseError(e));
+        } catch (JSONException je) {
+            return Response.error(new ParseError(je));
+        }
+    }
 
     public Map<String, String> setHeaders() {
         HashMap<String, String> headers = new HashMap<String, String>();

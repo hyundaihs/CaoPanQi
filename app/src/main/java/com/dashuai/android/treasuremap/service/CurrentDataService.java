@@ -64,6 +64,7 @@ public class CurrentDataService extends Service implements Reply {
         stockList = new ArrayList<Stock>();
         thread.start();
         thread2.start();
+        thread3.start();
         // initRing();
     }
 

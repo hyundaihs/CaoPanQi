@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-es\\values-es.xml",
+            "map": [
+                {
+                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-es\\values-es.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-es\\values-es.xml",
             "map": [
                 {
@@ -26,21 +41,6 @@
                         "startOffsets": "55,172,280,403,516,624,709,810,938,1014,1090,1172,1279,1379,1478,1586,1693,1800,1922,2022,2104",
                         "endColumns": "116,107,122,112,107,84,100,127,75,75,81,106,99,98,107,106,106,121,99,81,100",
                         "endOffsets": "167,275,398,511,619,704,805,933,1009,1085,1167,1274,1374,1473,1581,1688,1795,1917,2017,2099,2200"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-es\\values-es.xml",
-            "map": [
-                {
-                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-es\\values-es.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
                     }
                 }
             ]

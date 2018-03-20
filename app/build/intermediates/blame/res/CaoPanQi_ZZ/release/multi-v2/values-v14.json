@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",
@@ -21,12 +21,7 @@
                         "endColumns": "12",
                         "endOffsets": "201"
                     }
-                }
-            ]
-        },
-        {
-            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-v14\\values-v14.xml",
-            "map": [
+                },
                 {
                     "source": "E:\\Users\\kevin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ea66a8e33ef5c0e662e1a2b3f0d89be5\\res\\values-v14\\values-v14.xml",
                     "from": {
@@ -45,9 +40,14 @@
                         "endColumns": "12,70,82,12,12,119,131,119,62,12,62,131",
                         "endOffsets": "477,548,631,1041,1463,1583,1715,1835,1898,2052,2115,2247"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
                 {
-                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",

@@ -1,20 +1,25 @@
 package com.dashuai.android.treasuremap;
 
+import android.*;
+import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.Settings;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.dashuai.android.treasuremap.db.BZListStatusDao;
 import com.dashuai.android.treasuremap.entity.BZListStatus;
@@ -60,6 +65,20 @@ public class MainActivity extends Activity implements Reply {
             // 和onActivityResult()的requestCode一样，用来区分多个不同的请求。
             if (requestCode == 200) {
 
+                if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
+                    CPQApplication.setLogined(false);
+                    dialogUtil.setErrorMessage("权限获取失败", new OnClickListener() {
+
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            finish();
+                        }
+                    });
+                    return;
+                }else{
+                    Toast.makeText(MainActivity.this,"权限获取成功",Toast.LENGTH_SHORT).show();
+                }
+                check_reg();
             }
         }
 
@@ -77,30 +96,27 @@ public class MainActivity extends Activity implements Reply {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         CPQApplication.hideActionBar(this);
-        getPermission();
         init();
-        getBzInfo();
+        getPermission();
+
     }
 
     private void getPermission() {
         AndPermission.with(getApplicationContext())
                 .requestCode(200)
-                .permission(Permission.STORAGE)
                 .permission(android.Manifest.permission.READ_PHONE_STATE)
                 .permission(android.Manifest.permission.SYSTEM_ALERT_WINDOW)
                 .permission(android.Manifest.permission.VIBRATE)
+                .permission(Permission.PHONE)
+                .permission(Permission.STORAGE)
                 .rationale(new RationaleListener() {
                     @Override
                     public void showRequestPermissionRationale(int requestCode, Rationale rationale) {
-                        AndPermission.rationaleDialog(MainActivity.this, rationale).show();
+                        AndPermission.rationaleDialog(getApplicationContext(), rationale).show();
                     }
                 })
                 .callback(listener)
                 .start();
-    }
-
-    private void call() {
-
     }
 
     /**
@@ -175,10 +191,10 @@ public class MainActivity extends Activity implements Reply {
                 checkBzList(CPQApplication.getDB(), Constant.getBzStatus());
             }
             initHongbao();
-            check_reg();
-        } else {
             CPQApplication.setLogined(true);
             handler.sendEmptyMessageDelayed(1, 2000);
+        } else {
+            getBzInfo();
         }
     }
 

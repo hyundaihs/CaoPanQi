@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-is\\values-is.xml",
+            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-is\\values-is.xml",
             "map": [
                 {
-                    "source": "E:\\Users\\kevin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\465915a98ef283dc77dbcdce598519ab\\res\\values-is\\values-is.xml",
+                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-is\\values-is.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -31,10 +31,10 @@
             ]
         },
         {
-            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\E:\\AndroidStudioAll\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-is\\values-is.xml",
+            "outputFile": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\app\\build\\intermediates\\incremental\\mergeCaoPanQi_ZZReleaseResources\\merged.dir\\values-is\\values-is.xml",
             "map": [
                 {
-                    "source": "E:\\Users\\kevin\\AndroidStudioProjects\\CaoPanQi\\C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7381883ade1eb53a867e937f395981b8\\res\\values-is\\values-is.xml",
+                    "source": "E:\\Users\\kevin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\465915a98ef283dc77dbcdce598519ab\\res\\values-is\\values-is.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
