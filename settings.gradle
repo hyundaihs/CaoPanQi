@@ -1,1 +1,1 @@
-include ':library_Viewpagerindicator', ':app'
+include ':app'
