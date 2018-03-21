@@ -1,9 +1,9 @@
 package com.dashuai.android.treasuremap;
 
-import android.*;
 import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
@@ -32,11 +32,11 @@ import com.dashuai.android.treasuremap.util.Installation;
 import com.dashuai.android.treasuremap.util.JsonUtil;
 import com.dashuai.android.treasuremap.util.RequestUtil;
 import com.dashuai.android.treasuremap.util.RequestUtil.Reply;
+import com.yanzhenjie.permission.Action;
 import com.yanzhenjie.permission.AndPermission;
 import com.yanzhenjie.permission.Permission;
-import com.yanzhenjie.permission.PermissionListener;
 import com.yanzhenjie.permission.Rationale;
-import com.yanzhenjie.permission.RationaleListener;
+import com.yanzhenjie.permission.RequestExecutor;
 
 import org.json.JSONObject;
 
@@ -56,40 +56,27 @@ public class MainActivity extends Activity implements Reply {
     private TextView textView;
     private ProgressBar progressBar;
     private MyHandler handler;
-    private PermissionListener listener = new PermissionListener() {
-        @Override
-        public void onSucceed(int requestCode, List<String> grantedPermissions) {
-            // 权限申请成功回调。
-
-            // 这里的requestCode就是申请时设置的requestCode。
-            // 和onActivityResult()的requestCode一样，用来区分多个不同的请求。
-            if (requestCode == 200) {
-
-                if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
-                    CPQApplication.setLogined(false);
-                    dialogUtil.setErrorMessage("权限获取失败", new OnClickListener() {
-
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            finish();
-                        }
-                    });
-                    return;
-                }else{
-                    Toast.makeText(MainActivity.this,"权限获取成功",Toast.LENGTH_SHORT).show();
-                }
-                check_reg();
-            }
-        }
-
-        @Override
-        public void onFailed(int requestCode, List<String> deniedPermissions) {
-            // 权限申请失败回调。
-            if (requestCode == 200) {
-                finish();
-            }
-        }
-    };
+//    private PermissionListener listener = new PermissionListener() {
+//        @Override
+//        public void onSucceed(int requestCode, List<String> grantedPermissions) {
+//            // 权限申请成功回调。
+//
+//            // 这里的requestCode就是申请时设置的requestCode。
+//            // 和onActivityResult()的requestCode一样，用来区分多个不同的请求。
+//            if (requestCode == 200) {
+//
+//
+//            }
+//        }
+//
+//        @Override
+//        public void onFailed(int requestCode, List<String> deniedPermissions) {
+//            // 权限申请失败回调。
+//            if (requestCode == 200) {
+//                finish();
+//            }
+//        }
+//    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,21 +89,61 @@ public class MainActivity extends Activity implements Reply {
     }
 
     private void getPermission() {
-        AndPermission.with(getApplicationContext())
-                .requestCode(200)
-                .permission(android.Manifest.permission.READ_PHONE_STATE)
-                .permission(android.Manifest.permission.SYSTEM_ALERT_WINDOW)
+        AndPermission.with(this)
+                .permission(Permission.Group.PHONE)
+                .permission(Permission.Group.STORAGE)
                 .permission(android.Manifest.permission.VIBRATE)
-                .permission(Permission.PHONE)
-                .permission(Permission.STORAGE)
-                .rationale(new RationaleListener() {
+                .permission(android.Manifest.permission.SYSTEM_ALERT_WINDOW)
+                .rationale(new Rationale() {
                     @Override
-                    public void showRequestPermissionRationale(int requestCode, Rationale rationale) {
-                        AndPermission.rationaleDialog(getApplicationContext(), rationale).show();
+                    public void showRationale(Context context, List<String> permissions, RequestExecutor executor) {
+
                     }
-                })
-                .callback(listener)
-                .start();
+                }).onGranted(new Action() {
+            @Override
+            public void onAction(List<String> permissions) {
+                if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
+                    CPQApplication.setLogined(false);
+                    dialogUtil.setErrorMessage("权限获取失败", new OnClickListener() {
+
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            finish();
+                        }
+                    });
+                    return;
+                } else {
+                    Toast.makeText(MainActivity.this, "权限获取成功", Toast.LENGTH_SHORT).show();
+                }
+                check_reg();
+            }
+        }).onDenied(new Action() {
+            @Override
+            public void onAction(List<String> permissions) {
+                dialogUtil.setErrorMessage("权限获取被拒绝", new OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+                });
+            }
+        }).start();
+//        AndPermission.with(getApplicationContext())
+//                .requestCode(200)
+//                .permission(android.Manifest.permission.READ_PHONE_STATE)
+//                .permission(Manifest.permission.READ_EXTERNAL_STORAGE)
+//                .permission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
+//                .permission(android.Manifest.permission.SYSTEM_ALERT_WINDOW)
+//                .permission(android.Manifest.permission.VIBRATE)
+//                .rationale(new RationaleListener() {
+//                    @Override
+//                    public void showRequestPermissionRationale(int requestCode, Rationale rationale) {
+//                        AndPermission.rationaleDialog(getApplicationContext(), rationale).show();
+//                    }
+//                })
+//                .callback(listener)
+//                .start();
     }
 
     /**

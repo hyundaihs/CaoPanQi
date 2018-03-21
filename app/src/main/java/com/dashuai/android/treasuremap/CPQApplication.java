@@ -32,9 +32,6 @@ import com.dashuai.android.treasuremap.ui.StockDetailsTVActivity;
 import com.dashuai.android.treasuremap.util.CalendarUtil;
 import com.dashuai.android.treasuremap.util.CrashHandler;
 import com.dashuai.android.treasuremap.util.FileUtil;
-import com.yanzhenjie.permission.AndPermission;
-import com.yanzhenjie.permission.Permission;
-import com.yanzhenjie.permission.PermissionListener;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -47,24 +44,28 @@ import cn.jpush.android.api.JPushInterface;
 
 public class CPQApplication extends Application {
 
-    private static DBManager dbManager;
     public static List<Stock> protfolios;// 自选
     public static List<Stock> beizhu;// 备注预警
     public static List<Stock> moreBZ;// 更多备注列表
-    private static List<Fangzhen> fangzhens;
     public static Stock stockDetails;// 详情
     public static Stock gzStock;
     public static List<BzList> bzList;
     public static boolean isIfOpen = false;// 是否开启股指的实时数据
     public static boolean isDetailsOpen = false;// 是否开启详情实时数据获取
+    public static List<Record> records = new ArrayList<Record>();
+    public static List<Stock> detailsResource = new ArrayList<Stock>();
+    public static List<FangzhenBig> fangzhenBigs = new ArrayList<FangzhenBig>();
+    /**
+     * 用户身份
+     */
+    public static int CLIENT = Constant.ZZ;
+    public static int VERSION = Constant.PHONE;
+    private static DBManager dbManager;
+    private static List<Fangzhen> fangzhens;
     private static long lastHongbaoTime;// 上次获取红包日志的时间戳
     private static long lastFangzhenTime;//上次获取的组合日志的时间
     private static int bzcode = -1;// 实时获取的备注列表的代码
     private static boolean isLogined = false;
-
-    public static List<Record> records = new ArrayList<Record>();
-    public static List<Stock> detailsResource = new ArrayList<Stock>();
-    public static List<FangzhenBig> fangzhenBigs = new ArrayList<FangzhenBig>();
 
     public static Stock getDetailsStock(int index) {
         return detailsResource.get(index);
@@ -78,12 +79,6 @@ public class CPQApplication extends Application {
     public static int getDetailsResourceCount() {
         return detailsResource.size();
     }
-
-    /**
-     * 用户身份
-     */
-    public static int CLIENT = Constant.ZZ;
-    public static int VERSION = Constant.PHONE;
 
     // public static boolean IS_TEST = true;// 是否试用
 
@@ -120,41 +115,6 @@ public class CPQApplication extends Application {
 //        }
 
     }
-
-    @Override
-    public void onCreate() {
-        super.onCreate();
-        JPushInterface.setDebugMode(true);
-        JPushInterface.init(this);
-        VERSION = BuildConfig.IS_PHONE ? Constant.PHONE : Constant.TV;
-        // 初始化数据库
-        dbManager = DBManager.getInstance(this).openDatabase();
-        // 初始化相关文件路径
-        if (FileUtil.initPath(Constant.IMAGE_PATH)) {
-            Log.i("ZSApplication", "图片路径初始化成功");
-        }
-        if (FileUtil.initPath(Constant.LOG_PATH)) {
-            Log.i("ZSApplication", "日志路径初始化成功");
-        }
-        if (FileUtil.initPath(Constant.APK_PATH)) {
-            Log.i("ZSApplication", "APK路径初始化成功");
-        }
-        if (FileUtil.initPath(Constant.VIDEO_PATH)) {
-            Log.i("ZSApplication", "视频路径初始化成功");
-        }
-        // 实例化日志
-        CrashHandler crashHandler = CrashHandler.getInstance();
-        crashHandler.init(getApplicationContext(), Constant.LOG_PATH);
-
-        Constant.clearStatus();
-        BZListStatusDao bzListStatusDao = new BZListStatusDao(CPQApplication.getDB());
-        List<BZListStatus> list = bzListStatusDao.querys(new BZListStatus());
-        for (int i = 0; i < list.size(); i++) {
-            Constant.addStatus(list.get(i).getName());
-        }
-    }
-
-
 
     public static String round(Double v) {
         return String.valueOf(round(v, 0));
@@ -425,5 +385,38 @@ public class CPQApplication extends Application {
             }
         }
         return calendarUtil.format(CalendarUtil.YYYY_MM);
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        JPushInterface.setDebugMode(true);
+        JPushInterface.init(this);
+        VERSION = BuildConfig.IS_PHONE ? Constant.PHONE : Constant.TV;
+        // 初始化数据库
+        dbManager = DBManager.getInstance(this).openDatabase();
+        // 初始化相关文件路径
+        if (FileUtil.initPath(Constant.IMAGE_PATH)) {
+            Log.i("ZSApplication", "图片路径初始化成功");
+        }
+        if (FileUtil.initPath(Constant.LOG_PATH)) {
+            Log.i("ZSApplication", "日志路径初始化成功");
+        }
+        if (FileUtil.initPath(Constant.APK_PATH)) {
+            Log.i("ZSApplication", "APK路径初始化成功");
+        }
+        if (FileUtil.initPath(Constant.VIDEO_PATH)) {
+            Log.i("ZSApplication", "视频路径初始化成功");
+        }
+        // 实例化日志
+        CrashHandler crashHandler = CrashHandler.getInstance();
+        crashHandler.init(getApplicationContext(), Constant.LOG_PATH);
+
+        Constant.clearStatus();
+        BZListStatusDao bzListStatusDao = new BZListStatusDao(CPQApplication.getDB());
+        List<BZListStatus> list = bzListStatusDao.querys(new BZListStatus());
+        for (int i = 0; i < list.size(); i++) {
+            Constant.addStatus(list.get(i).getName());
+        }
     }
 }
