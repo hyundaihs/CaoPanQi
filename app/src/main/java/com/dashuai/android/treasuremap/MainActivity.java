@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.Settings;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.View;
@@ -27,9 +28,11 @@ import com.dashuai.android.treasuremap.entity.BzList;
 import com.dashuai.android.treasuremap.entity.Stock;
 import com.dashuai.android.treasuremap.ui.HomepageActivity;
 import com.dashuai.android.treasuremap.ui.RegisteActivity;
+import com.dashuai.android.treasuremap.util.DefaultRationale;
 import com.dashuai.android.treasuremap.util.DialogUtil;
 import com.dashuai.android.treasuremap.util.Installation;
 import com.dashuai.android.treasuremap.util.JsonUtil;
+import com.dashuai.android.treasuremap.util.PermissionSetting;
 import com.dashuai.android.treasuremap.util.RequestUtil;
 import com.dashuai.android.treasuremap.util.RequestUtil.Reply;
 import com.yanzhenjie.permission.Action;
@@ -56,27 +59,8 @@ public class MainActivity extends Activity implements Reply {
     private TextView textView;
     private ProgressBar progressBar;
     private MyHandler handler;
-//    private PermissionListener listener = new PermissionListener() {
-//        @Override
-//        public void onSucceed(int requestCode, List<String> grantedPermissions) {
-//            // 权限申请成功回调。
-//
-//            // 这里的requestCode就是申请时设置的requestCode。
-//            // 和onActivityResult()的requestCode一样，用来区分多个不同的请求。
-//            if (requestCode == 200) {
-//
-//
-//            }
-//        }
-//
-//        @Override
-//        public void onFailed(int requestCode, List<String> deniedPermissions) {
-//            // 权限申请失败回调。
-//            if (requestCode == 200) {
-//                finish();
-//            }
-//        }
-//    };
+    private PermissionSetting mSetting;
+    private DefaultRationale mRationale;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,62 +73,69 @@ public class MainActivity extends Activity implements Reply {
     }
 
     private void getPermission() {
-        AndPermission.with(this)
-                .permission(Permission.Group.PHONE)
-                .permission(Permission.Group.STORAGE)
-                .permission(android.Manifest.permission.VIBRATE)
-                .permission(android.Manifest.permission.SYSTEM_ALERT_WINDOW)
-                .rationale(new Rationale() {
-                    @Override
-                    public void showRationale(Context context, List<String> permissions, RequestExecutor executor) {
-
-                    }
-                }).onGranted(new Action() {
-            @Override
-            public void onAction(List<String> permissions) {
-                if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
-                    CPQApplication.setLogined(false);
-                    dialogUtil.setErrorMessage("权限获取失败", new OnClickListener() {
-
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            finish();
-                        }
-                    });
-                    return;
-                } else {
-                    Toast.makeText(MainActivity.this, "权限获取成功", Toast.LENGTH_SHORT).show();
-                }
-                check_reg();
-            }
-        }).onDenied(new Action() {
-            @Override
-            public void onAction(List<String> permissions) {
-                dialogUtil.setErrorMessage("权限获取被拒绝", new OnClickListener() {
-
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                });
-            }
-        }).start();
-//        AndPermission.with(getApplicationContext())
-//                .requestCode(200)
-//                .permission(android.Manifest.permission.READ_PHONE_STATE)
-//                .permission(Manifest.permission.READ_EXTERNAL_STORAGE)
-//                .permission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
-//                .permission(android.Manifest.permission.SYSTEM_ALERT_WINDOW)
-//                .permission(android.Manifest.permission.VIBRATE)
-//                .rationale(new RationaleListener() {
-//                    @Override
-//                    public void showRequestPermissionRationale(int requestCode, Rationale rationale) {
-//                        AndPermission.rationaleDialog(getApplicationContext(), rationale).show();
-//                    }
-//                })
-//                .callback(listener)
-//                .start();
+        String[] permissions = {Permission.READ_PHONE_STATE, Permission.READ_EXTERNAL_STORAGE, Permission.WRITE_EXTERNAL_STORAGE};
+        requestPermission(permissions);
     }
+
+    private void requestPermission(String permissions) {
+        AndPermission.with(this)
+                .permission(permissions)
+                .rationale(mRationale)
+                .onGranted(new Action() {
+                    @Override
+                    public void onAction(List<String> permissions) {
+                        toast(R.string.successfully);
+                    }
+                })
+                .onDenied(new Action() {
+                    @Override
+                    public void onAction(@NonNull List<String> permissions) {
+                        toast(R.string.failure);
+                        if (AndPermission.hasAlwaysDeniedPermission(MainActivity.this, permissions)) {
+                            mSetting.showSetting(permissions);
+                        }
+                    }
+                })
+                .start();
+    }
+
+    private void requestPermission(String[] permissions) {
+        AndPermission.with(this)
+                .permission(permissions)
+                .rationale(mRationale)
+                .onGranted(new Action() {
+                    @Override
+                    public void onAction(List<String> permissions) {
+                        toast(R.string.successfully);
+                        check_reg();
+                    }
+                })
+                .onDenied(new Action() {
+                    @Override
+                    public void onAction(@NonNull List<String> permissions) {
+                        if (AndPermission.hasAlwaysDeniedPermission(MainActivity.this, permissions)) {
+                            mSetting.showSetting(permissions);
+                        }
+                        dialogUtil.setErrorMessage(getResources().getString(R.string.failure), new OnClickListener() {
+
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                finish();
+                            }
+                        });
+                    }
+                })
+                .start();
+    }
+
+    private void toast(String message) {
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+    }
+
+    private void toast(int id) {
+        toast(getResources().getString(id));
+    }
+
 
     /**
      * 用于在用户勾选“不再提示”并且拒绝时，再次提示用户
@@ -188,6 +179,8 @@ public class MainActivity extends Activity implements Reply {
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         textView.setBackgroundResource(CPQApplication.VERSION == Constant.PHONE ? R.drawable.welcome
                 : R.drawable.welcome_tv);
+        mRationale = new DefaultRationale();
+        mSetting = new PermissionSetting(this);
     }
 
     /**
