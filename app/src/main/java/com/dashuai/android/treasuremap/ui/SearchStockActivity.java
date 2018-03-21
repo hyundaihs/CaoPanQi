@@ -158,6 +158,10 @@ public class SearchStockActivity extends Activity implements Reply,
                                 2);
                         adapter.notifyDataSetChanged();
                     } else {
+                        if (CPQApplication.protfolios.size() >= 50) {
+                            new DialogUtil(SearchStockActivity.this).setErrorMessage("最多添加50只自选股");
+                            return;
+                        }
                         stock.setRisePrice(0);
                         stock.setFallPrice(0);
                         stock.setRiseIncrease(0);
@@ -316,6 +320,10 @@ public class SearchStockActivity extends Activity implements Reply,
 
                         @Override
                         public void onClick(View v) {
+                            if (CPQApplication.protfolios.size() >= 50) {
+                                new DialogUtil(SearchStockActivity.this).setErrorMessage("最多添加50只自选股");
+                                return;
+                            }
                             stock.setRisePrice(0);
                             stock.setFallPrice(0);
                             stock.setRiseIncrease(0);

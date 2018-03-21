@@ -23,6 +23,7 @@ import com.dashuai.android.treasuremap.db.StockDao;
 import com.dashuai.android.treasuremap.entity.HistoryStock;
 import com.dashuai.android.treasuremap.entity.Stock;
 import com.dashuai.android.treasuremap.util.ArrowUtil;
+import com.dashuai.android.treasuremap.util.DialogUtil;
 import com.dashuai.android.treasuremap.util.JsonUtil;
 import com.dashuai.android.treasuremap.util.RequestUtil;
 import com.dashuai.android.treasuremap.util.RequestUtil.Reply;
@@ -272,6 +273,10 @@ public class StockDetailsTVActivity extends FragmentActivity implements Reply, O
             @Override
             public void onClick(View v) {
                 if (add.getText().toString().equals("加入\n自选")) {
+                    if (CPQApplication.protfolios.size() >= 50) {
+                        new DialogUtil(StockDetailsTVActivity.this).setErrorMessage("最多添加50只自选股");
+                        return;
+                    }
                     CPQApplication.stockDetails.setRisePrice(0);
                     CPQApplication.stockDetails.setFallPrice(0);
                     CPQApplication.stockDetails.setRiseIncrease(0);
