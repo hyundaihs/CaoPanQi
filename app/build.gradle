@@ -59,8 +59,8 @@ android {
             signingConfig signingConfigs.config
             targetSdkVersion 27
             applicationId 'com.dashuai.android.treasuremap'
-            versionCode 40
-            versionName "10.8"
+            versionCode 41
+            versionName "10.9"
         }
         CaoPanQi_CF {
             minSdkVersion 17
