@@ -110,7 +110,7 @@ public class MarketTVFragment extends Fragment {
         View view;
         if (layout.getChildCount() < bzStatus.size()) {
             adapters = new ArrayList<MyAdapter>();
-            view = getLayoutInflater(getArguments()).inflate(
+            view = LayoutInflater.from(getContext()).inflate(
                     R.layout.layout_market_tv_item, null, false);
             layout.addView(view);
         } else {

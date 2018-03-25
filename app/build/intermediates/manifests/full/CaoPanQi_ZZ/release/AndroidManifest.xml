@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dashuai.android.treasuremap"
-    android:versionCode="39"
-    android:versionName="10.7" >
+    android:versionCode="41"
+    android:versionName="10.9" >
 
     <uses-sdk
         android:minSdkVersion="17"
@@ -19,7 +19,7 @@
     <!-- 获取设备ID权限 -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <!-- 震动权限 -->
-    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- <uses-permission android:name="android.permission.VIBRATE" /> -->
     <!-- 全局性对话框权限 -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
@@ -30,16 +30,13 @@
     <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 用于开启 debug 版本的应用在6.0 系统上 层叠窗口权限 -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="25.3.1" />
 
     <application
         android:name="com.dashuai.android.treasuremap.CPQApplication"
@@ -80,6 +77,16 @@
         <activity android:name="com.dashuai.android.treasuremap.ui.DeviceActivity" />
         <activity android:name="com.dashuai.android.treasuremap.ui.ScoreActivity" />
         <activity android:name="com.dashuai.android.treasuremap.ui.ScoreDetailsActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.dashuai.android.treasuremap.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
         <!-- Rich push 核心功能 since 2.0.6 -->
         <activity
             android:name="cn.jpush.android.ui.PopWinActivity"

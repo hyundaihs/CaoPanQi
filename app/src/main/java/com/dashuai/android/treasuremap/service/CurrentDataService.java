@@ -95,29 +95,24 @@ public class CurrentDataService extends Service implements Reply {
             if (CPQApplication.getDB() == null) {
                 return;
             }
-            while(flag){
-                if (CPQApplication.CLIENT == Constant.CY
-                        || CPQApplication.CLIENT == Constant.ZZ
-                        || CPQApplication.CLIENT == Constant.CX) {
-                    Log.d("Service","红包");
-                    Map<String, Object> map = new HashMap<String, Object>();
-                    if (CPQApplication.getLastHongbaoTime() > 0) {
-                        map.put("hongbao_time",
-                                CPQApplication.getLastHongbaoTime());
-                    } else {
-                        map.put("hongbao_time", spUtil.getLastHongbaoTime());
-                    }
-                    map.put("cyb", CPQApplication.CLIENT == Constant.CY ? 1 : 0);
-                    map.put("cxb", CPQApplication.CLIENT == Constant.CX ? 1 : 0);
+            while (flag) {
+                Log.d("Service", "红包");
+                Map<String, Object> map = new HashMap<String, Object>();
+                if (CPQApplication.getLastHongbaoTime() > 0) {
+                    map.put("hongbao_time",
+                            CPQApplication.getLastHongbaoTime());
+                } else {
+                    map.put("hongbao_time", spUtil.getLastHongbaoTime());
+                }
+                map.put("cyb", CPQApplication.CLIENT == Constant.CY ? 1 : 0);
+                requestUtil.postRequest(Constant.URL_IP
+                        + Constant.HONG_BAO_LISTS, map, 2, false);
+                requestUtil.postRequest(
+                        Constant.URL_IP + Constant.BZ_LISTS, map, 3);
+                if (CPQApplication.getBzcode() >= 0) {
+                    map.put("beizhu", CPQApplication.getBzcode());
                     requestUtil.postRequest(Constant.URL_IP
-                            + Constant.HONG_BAO_LISTS, map, 2, false);
-                    requestUtil.postRequest(
-                            Constant.URL_IP + Constant.BZ_LISTS, map, 3);
-                    if (CPQApplication.getBzcode() >= 0) {
-                        map.put("beizhu", CPQApplication.getBzcode());
-                        requestUtil.postRequest(Constant.URL_IP
-                                + Constant.NOW_BY_BEIZHU, map, 4);
-                    }
+                            + Constant.NOW_BY_BEIZHU, map, 4);
                 }
                 try {
                     Thread.sleep(10000);
@@ -133,9 +128,9 @@ public class CurrentDataService extends Service implements Reply {
             if (CPQApplication.getDB() == null) {
                 return;
             }
-            while(flag){
+            while (flag) {
                 if (CPQApplication.getFangzhens().size() > 0) {
-                    Log.d("Service","仿真");
+                    Log.d("Service", "仿真");
                     JSONArray array = new JSONArray();
                     for (int i = 0; i < CPQApplication.getFangzhens().size(); i++) {
                         array.put(CPQApplication.getFangzhens().get(i).getStockId());
@@ -157,14 +152,14 @@ public class CurrentDataService extends Service implements Reply {
                 }
                 if (CPQApplication.stockDetails != null
                         && CPQApplication.isDetailsOpen) {
-                    Log.d("Service","详情");
+                    Log.d("Service", "详情");
                     Map<String, Object> map = new HashMap<String, Object>();
                     map.put("codes", CPQApplication.stockDetails.getCode());
                     requestUtil.postRequest(Constant.URL_IP
                             + Constant.NOW_BY_ONECODE, map, 1, false);
                 }
                 if (CPQApplication.isIfOpen) {
-                    Log.d("Service","GZ");
+                    Log.d("Service", "GZ");
                     requestUtil.postRequest(Constant.URL_IP + Constant.NOW_GZ,
                             5, false);
                 }
@@ -189,7 +184,7 @@ public class CurrentDataService extends Service implements Reply {
                 stockList.clear();
                 stockList.addAll(CPQApplication.getStocks());
                 if (stockList.size() > 0) {
-                    Log.d("Service","自选");
+                    Log.d("Service", "自选");
                     JSONArray array = new JSONArray();
                     for (int i = 0; i < stockList.size(); i++) {
                         array.put(stockList.get(i).getCode());
