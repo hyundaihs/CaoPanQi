@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Mar 25 10:28:20 CST 2018
+#Mon Mar 26 22:43:26 CST 2018
 4.path=lib/mips64/libjcore111.so
 8.set=NATIVE_RESOURCE
 6.path=stock_data.txt

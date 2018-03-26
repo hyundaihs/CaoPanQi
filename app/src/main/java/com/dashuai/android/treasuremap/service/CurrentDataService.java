@@ -449,9 +449,9 @@ public class CurrentDataService extends Service implements Reply {
             return;
         }
         if (spUtil.isAllWarn()) {
-            if (CPQApplication.VERSION == Constant.TV) {
-                notifiCustom(text);
-            }
+//            if (CPQApplication.VERSION == Constant.TV) {
+//                notifiCustom(text);
+//            }
             notification(text);
         }
         if (null != CPQApplication.getDB()) {
@@ -480,16 +480,16 @@ public class CurrentDataService extends Service implements Reply {
         manager.notify(R.drawable.app_icon, notification);
     }
 
-    private void notifiCustom(String text) {
-        final DialogUtil dialogUtil = new DialogUtil(this, true);
-        dialogUtil.setMessage("操盘器提示您:", text, "关闭所有", new OnClickListener() {
-
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialogUtil.dismiss(true);
-            }
-        }, "关闭", null);
-    }
+//    private void notifiCustom(String text) {
+//        final DialogUtil dialogUtil = new DialogUtil(this, true);
+//        dialogUtil.setMessage("操盘器提示您:", text, "关闭所有", new OnClickListener() {
+//
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                dialogUtil.dismiss(true);
+//            }
+//        }, "关闭", null);
+//    }
 
     // private void startAlarm() {
     // mp.start();
