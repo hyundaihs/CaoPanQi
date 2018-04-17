@@ -3,19 +3,17 @@ package com.dashuai.android.treasuremap;
 import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
@@ -38,8 +36,6 @@ import com.dashuai.android.treasuremap.util.RequestUtil.Reply;
 import com.yanzhenjie.permission.Action;
 import com.yanzhenjie.permission.AndPermission;
 import com.yanzhenjie.permission.Permission;
-import com.yanzhenjie.permission.Rationale;
-import com.yanzhenjie.permission.RequestExecutor;
 
 import org.json.JSONObject;
 
@@ -73,31 +69,50 @@ public class MainActivity extends Activity implements Reply {
     }
 
     private void getPermission() {
-        String[] permissions = {Permission.READ_PHONE_STATE, Permission.READ_EXTERNAL_STORAGE, Permission.WRITE_EXTERNAL_STORAGE};
+        String[] permissions = {Permission.READ_PHONE_STATE, Permission.READ_EXTERNAL_STORAGE,
+                Permission.WRITE_EXTERNAL_STORAGE};
         requestPermission(permissions);
+
     }
 
-    private void requestPermission(String permissions) {
-        AndPermission.with(this)
-                .permission(permissions)
-                .rationale(mRationale)
-                .onGranted(new Action() {
-                    @Override
-                    public void onAction(List<String> permissions) {
-                        toast(R.string.successfully);
-                    }
-                })
-                .onDenied(new Action() {
-                    @Override
-                    public void onAction(@NonNull List<String> permissions) {
-                        toast(R.string.failure);
-                        if (AndPermission.hasAlwaysDeniedPermission(MainActivity.this, permissions)) {
-                            mSetting.showSetting(permissions);
-                        }
-                    }
-                })
-                .start();
-    }
+//    @Override
+//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        if (requestCode == 1) {
+//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+//                if (!Settings.canDrawOverlays(this)) {
+//                    dialogUtil.setErrorMessage(getResources().getString(R.string.failure), new OnClickListener() {
+//                        @Override
+//                        public void onClick(DialogInterface dialog, int which) {
+//                            finish();
+//                        }
+//                    });
+//                } else {
+//
+//                }
+//            }
+//        }
+//    }
+
+//    private void requestPermission(String permissions) {
+//        AndPermission.with(this)
+//                .permission(permissions)
+//                .rationale(mRationale)
+//                .onGranted(new Action() {
+//                    @Override
+//                    public void onAction(List<String> permissions) {
+//                        toast(R.string.successfully);
+//                    }
+//                })
+//                .onDenied(new Action() {
+//                    @Override
+//                    public void onAction(@NonNull List<String> permissions) {
+//                        if (AndPermission.hasAlwaysDeniedPermission(MainActivity.this, permissions)) {
+//                            mSetting.showSetting(permissions);
+//                        }
+//                    }
+//                })
+//                .start();
+//    }
 
     private void requestPermission(String[] permissions) {
         AndPermission.with(this)
@@ -115,14 +130,16 @@ public class MainActivity extends Activity implements Reply {
                     public void onAction(@NonNull List<String> permissions) {
                         if (AndPermission.hasAlwaysDeniedPermission(MainActivity.this, permissions)) {
                             mSetting.showSetting(permissions);
-                        }
-                        dialogUtil.setErrorMessage(getResources().getString(R.string.failure), new OnClickListener() {
-
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                finish();
+                        }else{
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                                if (Settings.canDrawOverlays(MainActivity.this)) {
+                                    toast(R.string.successfully);
+                                    check_reg();
+                                } else {
+                                    mSetting.showSetting(permissions);
+                                }
                             }
-                        });
+                        }
                     }
                 })
                 .start();

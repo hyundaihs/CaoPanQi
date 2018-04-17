@@ -12,11 +12,14 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.media.RingtoneManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.IBinder;
+import android.provider.Settings;
 import android.util.Log;
 
 import com.dashuai.android.treasuremap.CPQApplication;
 import com.dashuai.android.treasuremap.Constant;
+import com.dashuai.android.treasuremap.MainActivity;
 import com.dashuai.android.treasuremap.R;
 import com.dashuai.android.treasuremap.db.StockLogDao;
 import com.dashuai.android.treasuremap.entity.BzList;
@@ -449,9 +452,9 @@ public class CurrentDataService extends Service implements Reply {
             return;
         }
         if (spUtil.isAllWarn()) {
-//            if (CPQApplication.VERSION == Constant.TV) {
-//                notifiCustom(text);
-//            }
+            if (CPQApplication.VERSION == Constant.TV) {
+                notifiCustom(text);
+            }
             notification(text);
         }
         if (null != CPQApplication.getDB()) {
@@ -480,16 +483,16 @@ public class CurrentDataService extends Service implements Reply {
         manager.notify(R.drawable.app_icon, notification);
     }
 
-//    private void notifiCustom(String text) {
-//        final DialogUtil dialogUtil = new DialogUtil(this, true);
-//        dialogUtil.setMessage("操盘器提示您:", text, "关闭所有", new OnClickListener() {
-//
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                dialogUtil.dismiss(true);
-//            }
-//        }, "关闭", null);
-//    }
+    private void notifiCustom(String text) {
+        final DialogUtil dialogUtil = new DialogUtil(this, true);
+        dialogUtil.setMessage("操盘器提示您:", text, "关闭所有", new OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialogUtil.dismiss(true);
+            }
+        }, "关闭", null);
+    }
 
     // private void startAlarm() {
     // mp.start();

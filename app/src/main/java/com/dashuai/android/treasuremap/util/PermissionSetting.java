@@ -15,6 +15,7 @@
  */
 package com.dashuai.android.treasuremap.util;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -40,7 +41,7 @@ public final class PermissionSetting {
 
     public void showSetting(final List<String> permissions) {
         List<String> permissionNames = Permission.transformText(mContext, permissions);
-        String message = mContext.getString(R.string.message_permission_always_failed, TextUtils.join("\n", permissionNames));
+        String message = mContext.getString(R.string.message_permission_always_failed, TextUtils.join("\n", permissionNames)) + "\n" + "悬浮窗显示";
 
         final SettingService settingService = AndPermission.permissionSetting(mContext);
         new AlertDialog.Builder(mContext)
@@ -51,12 +52,14 @@ public final class PermissionSetting {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         settingService.execute();
+                        ((Activity) mContext).finish();
                     }
                 })
                 .setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         settingService.cancel();
+                        ((Activity) mContext).finish();
                     }
                 })
                 .show();

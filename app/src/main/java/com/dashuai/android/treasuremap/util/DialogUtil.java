@@ -6,20 +6,19 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
+import android.os.Build;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-
-import com.dashuai.android.treasuremap.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class DialogUtil {
+    public static List<DialogUtil> dialogs = new ArrayList<DialogUtil>();
     private AlertDialog dialog;
     private Context context;
     private boolean isAll;// 是否全局性
-    public static List<DialogUtil> dialogs = new ArrayList<DialogUtil>();
 
     public DialogUtil(Context context) {
         this.context = context;
@@ -97,14 +96,6 @@ public class DialogUtil {
         show();
     }
 
-    private class FinishListener implements DialogInterface.OnClickListener {
-
-        @Override
-        public void onClick(DialogInterface dialog, int which) {
-            dismiss();
-        }
-    }
-
     public void showKeyboard(EditText editText) {
         if (editText != null) {
             // 设置可获得焦点
@@ -123,8 +114,7 @@ public class DialogUtil {
     public void show() {
         dialogs.add(this);
         if (isAll) {
-            dialog.getWindow().setType(
-                    WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
+            dialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
             if (null != dialog) {
                 dialog.show();
             }
@@ -154,6 +144,14 @@ public class DialogUtil {
             }
             dialogs.clear();
         } else {
+            dismiss();
+        }
+    }
+
+    private class FinishListener implements DialogInterface.OnClickListener {
+
+        @Override
+        public void onClick(DialogInterface dialog, int which) {
             dismiss();
         }
     }
