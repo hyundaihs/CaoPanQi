@@ -80,7 +80,7 @@ public class AppVersionUtil {
 
 	/**
 	 * 是否有更新
-	 * 
+	 *
 	 * @param serverVersion
 	 * @return
 	 * @throws NameNotFoundException
@@ -220,7 +220,7 @@ public class AppVersionUtil {
 
 	/**
 	 * 弹出对话框通知用户是否需要更新
-	 * 
+	 *
 	 * @param isLatest
 	 *            是否是最新的
 	 */
@@ -271,7 +271,7 @@ public class AppVersionUtil {
 
 	/**
 	 * 下载文件线程
-	 * 
+	 *
 	 * @author coolszy
 	 * @date 2012-4-26
 	 * @blog http://blog.92coding.com

@@ -213,6 +213,17 @@ public class HomepageActivity extends FragmentActivity implements OnClickTouch {
         transaction.commit();
     }
 
+    private void notifiCustom(String text) {
+        final DialogUtil dialogUtil = new DialogUtil(this, true);
+        dialogUtil.setMessage("操盘器提示您:", text, "关闭所有", new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialogUtil.dismiss(true);
+            }
+        }, "关闭", null);
+    }
+
     /**
      * 加载行情
      */

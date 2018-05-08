@@ -28,7 +28,8 @@ import com.yanzhenjie.permission.RequestExecutor;
 import java.util.List;
 
 /**
- * Created by YanZhenjie on 2018/1/1.
+ * LeZu
+ * Created by 蔡雨峰 on 2018/1/1.
  */
 public final class DefaultRationale implements Rationale {
 

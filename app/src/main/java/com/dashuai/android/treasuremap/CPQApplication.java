@@ -91,29 +91,6 @@ public class CPQApplication extends Application {
      */
     public static int getID_KEY() {
         return VERSION == Constant.PHONE ? Constant.ID_KEY[4] : Constant.ID_KEY[7];
-//        switch (CLIENT) {
-//            case Constant.NORMAL:
-//                if (VERSION == Constant.PHONE) {
-//                    return Constant.ID_KEY[1];
-//                } else {
-//                    return Constant.ID_KEY[3];
-//                }
-//            case Constant.CRUDE:
-//                return Constant.ID_KEY[2];
-//            case Constant.ZZ:
-//                return VERSION == Constant.PHONE ? Constant.ID_KEY[4] : Constant.ID_KEY[9];
-//            case Constant.EMULATOR:
-//                return Constant.ID_KEY[5];
-//            case Constant.TEACHER:
-//                return Constant.ID_KEY[6];
-//            case Constant.CY:
-//                return Constant.ID_KEY[7];
-//            case Constant.CX:
-//                return Constant.ID_KEY[8];
-//            default:
-//                return Constant.ID_KEY[1];
-//        }
-
     }
 
     public static String round(Double v) {

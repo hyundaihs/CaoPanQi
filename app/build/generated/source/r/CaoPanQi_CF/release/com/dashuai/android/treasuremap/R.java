@@ -822,19 +822,6 @@ public final class R {
         0x7f02000a
       };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
-     * attribute's value can be found in the {@link #CardView} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name android:minHeight
-     */
-    public static final int CardView_android_minHeight=1;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
      * attribute's value can be found in the {@link #CardView} array.
      *
@@ -847,6 +834,19 @@ public final class R {
      * @attr name android:minWidth
      */
     public static final int CardView_android_minWidth=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int CardView_android_minHeight=1;
     /**
      * <p>This symbol is the offset where the {@link com.dashuai.android.treasuremap.R.attr#cardBackgroundColor}
      * attribute's value can be found in the {@link #CardView} array.
@@ -1008,107 +1008,6 @@ public final class R {
         0x7f020015, 0x7f020016
       };
     /**
-     * Attributes that can be used with a FontFamilyFont.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.dashuai.android.treasuremap:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.dashuai.android.treasuremap:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.dashuai.android.treasuremap:fontWeight}</code></td><td></td></tr>
-     * </table>
-     * @see #FontFamilyFont_android_font
-     * @see #FontFamilyFont_android_fontWeight
-     * @see #FontFamilyFont_android_fontStyle
-     * @see #FontFamilyFont_font
-     * @see #FontFamilyFont_fontStyle
-     * @see #FontFamilyFont_fontWeight
-     */
-    public static final int[] FontFamilyFont={
-        0x01010532, 0x01010533, 0x0101053f, 0x7f020010, 
-        0x7f020017, 0x7f020018
-      };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#font}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name android:font
-     */
-    public static final int FontFamilyFont_android_font=0;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontStyle}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>italic</td><td>1</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:fontStyle
-     */
-    public static final int FontFamilyFont_android_fontStyle=2;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontWeight}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name android:fontWeight
-     */
-    public static final int FontFamilyFont_android_fontWeight=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.dashuai.android.treasuremap.R.attr#font}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.dashuai.android.treasuremap:font
-     */
-    public static final int FontFamilyFont_font=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.dashuai.android.treasuremap.R.attr#fontStyle}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>italic</td><td>1</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.dashuai.android.treasuremap:fontStyle
-     */
-    public static final int FontFamilyFont_fontStyle=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.dashuai.android.treasuremap.R.attr#fontWeight}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.dashuai.android.treasuremap:fontWeight
-     */
-    public static final int FontFamilyFont_fontWeight=5;
-    /**
      * <p>This symbol is the offset where the {@link com.dashuai.android.treasuremap.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
@@ -1185,6 +1084,107 @@ public final class R {
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
+     * Attributes that can be used with a FontFamilyFont.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.dashuai.android.treasuremap:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.dashuai.android.treasuremap:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.dashuai.android.treasuremap:fontWeight}</code></td><td></td></tr>
+     * </table>
+     * @see #FontFamilyFont_android_font
+     * @see #FontFamilyFont_android_fontWeight
+     * @see #FontFamilyFont_android_fontStyle
+     * @see #FontFamilyFont_font
+     * @see #FontFamilyFont_fontStyle
+     * @see #FontFamilyFont_fontWeight
+     */
+    public static final int[] FontFamilyFont={
+        0x01010532, 0x01010533, 0x0101053f, 0x7f020010, 
+        0x7f020017, 0x7f020018
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#font}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:font
+     */
+    public static final int FontFamilyFont_android_font=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#fontWeight}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:fontWeight
+     */
+    public static final int FontFamilyFont_android_fontWeight=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>italic</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:fontStyle
+     */
+    public static final int FontFamilyFont_android_fontStyle=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.dashuai.android.treasuremap.R.attr#font}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.dashuai.android.treasuremap:font
+     */
+    public static final int FontFamilyFont_font=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.dashuai.android.treasuremap.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>italic</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.dashuai.android.treasuremap:fontStyle
+     */
+    public static final int FontFamilyFont_fontStyle=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.dashuai.android.treasuremap.R.attr#fontWeight}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.dashuai.android.treasuremap:fontWeight
+     */
+    public static final int FontFamilyFont_fontWeight=5;
+    /**
      * Attributes that can be used with a RecyclerView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -1221,6 +1221,23 @@ public final class R {
         0x7f02001a, 0x7f02001b, 0x7f02001c
       };
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int RecyclerView_android_orientation=0;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
@@ -1238,23 +1255,6 @@ public final class R {
      * @attr name android:descendantFocusability
      */
     public static final int RecyclerView_android_descendantFocusability=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
-     * attribute's value can be found in the {@link #RecyclerView} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>horizontal</td><td>0</td><td></td></tr>
-     * <tr><td>vertical</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:orientation
-     */
-    public static final int RecyclerView_android_orientation=0;
     /**
      * <p>This symbol is the offset where the {@link com.dashuai.android.treasuremap.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.

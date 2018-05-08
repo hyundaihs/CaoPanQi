@@ -1,6 +1,5 @@
 package com.dashuai.android.treasuremap;
 
-import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -13,7 +12,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
@@ -55,8 +53,17 @@ public class MainActivity extends Activity implements Reply {
     private TextView textView;
     private ProgressBar progressBar;
     private MyHandler handler;
-    private PermissionSetting mSetting;
-    private DefaultRationale mRationale;
+
+    String[] mPermissions = {
+            Permission.READ_EXTERNAL_STORAGE,
+            Permission.WRITE_EXTERNAL_STORAGE,
+            Permission.READ_PHONE_STATE
+    };
+
+    String[] mPermissions2 = {
+            Permission.READ_EXTERNAL_STORAGE,
+            Permission.WRITE_EXTERNAL_STORAGE,
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,85 +71,43 @@ public class MainActivity extends Activity implements Reply {
         setContentView(R.layout.activity_main);
         CPQApplication.hideActionBar(this);
         init();
-        getPermission();
-
-    }
-
-    private void getPermission() {
-        String[] permissions = {Permission.READ_PHONE_STATE, Permission.READ_EXTERNAL_STORAGE,
-                Permission.WRITE_EXTERNAL_STORAGE};
-        requestPermission(permissions);
-
-    }
-
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        if (requestCode == 1) {
-//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-//                if (!Settings.canDrawOverlays(this)) {
-//                    dialogUtil.setErrorMessage(getResources().getString(R.string.failure), new OnClickListener() {
-//                        @Override
-//                        public void onClick(DialogInterface dialog, int which) {
-//                            finish();
-//                        }
-//                    });
-//                } else {
-//
-//                }
-//            }
+        requestPermission();
+//        if(CPQApplication.VERSION == Constant.TV){
+//            check_reg();
 //        }
-//    }
+    }
 
-//    private void requestPermission(String permissions) {
-//        AndPermission.with(this)
-//                .permission(permissions)
-//                .rationale(mRationale)
-//                .onGranted(new Action() {
-//                    @Override
-//                    public void onAction(List<String> permissions) {
-//                        toast(R.string.successfully);
-//                    }
-//                })
-//                .onDenied(new Action() {
-//                    @Override
-//                    public void onAction(@NonNull List<String> permissions) {
-//                        if (AndPermission.hasAlwaysDeniedPermission(MainActivity.this, permissions)) {
-//                            mSetting.showSetting(permissions);
-//                        }
-//                    }
-//                })
-//                .start();
-//    }
-
-    private void requestPermission(String[] permissions) {
+    private void requestPermission() {
+        DefaultRationale mRationale = new DefaultRationale();
+        final PermissionSetting mSetting = new PermissionSetting(this);
         AndPermission.with(this)
-                .permission(permissions)
+                .permission(CPQApplication.VERSION == Constant.PHONE ? mPermissions : mPermissions2)
                 .rationale(mRationale)
                 .onGranted(new Action() {
                     @Override
                     public void onAction(List<String> permissions) {
-                        toast(R.string.successfully);
+                        Toast.makeText(MainActivity.this, "权限获取成功", Toast.LENGTH_SHORT).show();
                         check_reg();
                     }
-                })
-                .onDenied(new Action() {
-                    @Override
-                    public void onAction(@NonNull List<String> permissions) {
-                        if (AndPermission.hasAlwaysDeniedPermission(MainActivity.this, permissions)) {
-                            mSetting.showSetting(permissions);
-                        }else{
-                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                                if (Settings.canDrawOverlays(MainActivity.this)) {
-                                    toast(R.string.successfully);
-                                    check_reg();
-                                } else {
-                                    mSetting.showSetting(permissions);
-                                }
-                            }
+                }).onDenied(new Action() {
+
+            @Override
+            public void onAction(List<String> permissions) {
+                if (AndPermission.hasAlwaysDeniedPermission(MainActivity.this, permissions)) {
+                    mSetting.showSetting(permissions, new DialogInterface.OnClickListener() {
+
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Toast.makeText(MainActivity.this, "权限获取失败", Toast.LENGTH_SHORT).show();
+                            finish();
                         }
-                    }
-                })
-                .start();
+                    });
+                } else {
+                    Toast.makeText(MainActivity.this, "权限获取失败", Toast.LENGTH_SHORT).show();
+                    finish();
+                }
+            }
+        }).start();
     }
 
     private void toast(String message) {
@@ -151,30 +116,6 @@ public class MainActivity extends Activity implements Reply {
 
     private void toast(int id) {
         toast(getResources().getString(id));
-    }
-
-
-    /**
-     * 用于在用户勾选“不再提示”并且拒绝时，再次提示用户
-     */
-    private void showTipGoSetting() {
-        new AlertDialog.Builder(this)
-                .setTitle("设备ID不可用")
-                .setMessage("请在-应用设置-权限-中，允许APP用户电话权限获取设备ID验证用户注册情况")
-                .setPositiveButton("立即开启", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        // 跳转到应用设置界面
-                        goToAppSetting();
-                    }
-                })
-                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                }).setCancelable(false).show();
-
     }
 
     /**
@@ -196,8 +137,6 @@ public class MainActivity extends Activity implements Reply {
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         textView.setBackgroundResource(CPQApplication.VERSION == Constant.PHONE ? R.drawable.welcome
                 : R.drawable.welcome_tv);
-        mRationale = new DefaultRationale();
-        mSetting = new PermissionSetting(this);
     }
 
     /**
